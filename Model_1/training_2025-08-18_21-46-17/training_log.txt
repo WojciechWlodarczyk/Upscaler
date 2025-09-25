@@ -1,0 +1,56 @@
+Epoch [1/40] Train Loss: 0.000081045052316 Test Loss: 0.035321468558162
+Epoch [2/40] Train Loss: 0.000016787851584 Test Loss: 0.060453915938735 => return to previous weights
+Epoch [3/40] Train Loss: 0.000007699010512 Test Loss: 0.055753816081211 => return to previous weights
+Epoch [4/40] Train Loss: 0.000007964756660 Test Loss: 0.056649319874123 => return to previous weights
+Epoch [5/40] Train Loss: 0.000007099099809 Test Loss: 0.054947633566335 => return to previous weights
+Epoch [6/40] Train Loss: 0.000006647389923 Test Loss: 0.058324497364461 => return to previous weights
+Epoch [7/40] Train Loss: 0.000005496215110 Test Loss: 0.055962758401409 => return to previous weights
+Epoch [8/40] Train Loss: 0.000004923246894 Test Loss: 0.055383177474141 => return to previous weights
+Epoch [9/40] Train Loss: 0.000005531470844 Test Loss: 0.060508982080966 => return to previous weights
+Epoch [10/40] Train Loss: 0.000005503384495 Test Loss: 0.052440595984459 => return to previous weights
+Epoch [11/40] Train Loss: 0.000004968016154 Test Loss: 0.059332267630845 => return to previous weights
+Epoch [12/40] Train Loss: 0.000004174582532 Test Loss: 0.057303712971509 => return to previous weights
+Epoch [13/40] Train Loss: 0.000002619531617 Test Loss: 0.057121512798592 => return to previous weights
+Epoch [14/40] Train Loss: 0.000002722033589 Test Loss: 0.061700507774949 => return to previous weights
+Epoch [15/40] Train Loss: 0.000003508126888 Test Loss: 0.060036831762642 => return to previous weights
+Epoch [16/40] Train Loss: 0.000002100407847 Test Loss: 0.059127644231543 => return to previous weights
+Epoch [17/40] Train Loss: 0.000001612502956 Test Loss: 0.056729997094721 => return to previous weights
+Epoch [18/40] Train Loss: 0.000001232924192 Test Loss: 0.056308213075623 => return to previous weights
+Epoch [19/40] Train Loss: 0.000001087698339 Test Loss: 0.057804896267131 => return to previous weights
+Epoch [20/40] Train Loss: 0.000000984727339 Test Loss: 0.057828288801014 => return to previous weights
+Epoch [21/40] Train Loss: 0.000001308183925 Test Loss: 0.054308578906581 => return to previous weights
+Epoch [22/40] Train Loss: 0.000006062833499 Test Loss: 0.054020403113216 => return to previous weights
+Epoch [23/40] Train Loss: 0.000002317772660 Test Loss: 0.057742610054091 => return to previous weights
+Epoch [24/40] Train Loss: 0.000001276492982 Test Loss: 0.056402931425720 => return to previous weights
+Epoch [25/40] Train Loss: 0.000001013204341 Test Loss: 0.057855515090749 => return to previous weights
+Epoch [26/40] Train Loss: 0.000000913095173 Test Loss: 0.057230051198974 => return to previous weights
+Epoch [27/40] Train Loss: 0.000000971767749 Test Loss: 0.057226060364395 => return to previous weights
+Epoch [28/40] Train Loss: 0.000000858930372 Test Loss: 0.058231191895902 => return to previous weights
+Epoch [29/40] Train Loss: 0.000000695695826 Test Loss: 0.057899104643613 => return to previous weights
+Epoch [30/40] Train Loss: 0.000000702564514 Test Loss: 0.057296219864860 => return to previous weights
+Epoch [31/40] Train Loss: 0.000000660698049 Test Loss: 0.058235929084942 => return to previous weights
+Epoch [32/40] Train Loss: 0.000000686234514 Test Loss: 0.057733536910266 => return to previous weights
+Epoch [33/40] Train Loss: 0.000000670248278 Test Loss: 0.058438518993557 => return to previous weights
+Epoch [34/40] Train Loss: 0.000000627215155 Test Loss: 0.057499955318868 => return to previous weights
+Training stoped!
+
+
+Traceback (most recent call last):
+  File "E:\pythonProject\UpscalerTest\ManageTrainings.py", line 17, in <module>
+    TrainModel.train(model, 'Model_1//', 0.05)
+  File "E:\pythonProject\UpscalerTest\TrainModel.py", line 109, in train
+    for inputs, targets in final_test_dataloader:
+  File "E:\pythonProject\UpscalerTest\venv\lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "E:\pythonProject\UpscalerTest\venv\lib\site-packages\torch\utils\data\dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "E:\pythonProject\UpscalerTest\venv\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\pythonProject\UpscalerTest\venv\lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "E:\pythonProject\UpscalerTest\MyDataset.py", line 38, in __getitem__
+    target_img = Image.open(self.target_files[idx]).convert('RGB')
+IndexError: list index out of range
+
+Process finished with exit code 1
+

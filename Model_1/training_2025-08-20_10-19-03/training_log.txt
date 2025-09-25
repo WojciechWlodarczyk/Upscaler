@@ -1,0 +1,2 @@
+Training stoped!
+Final test loss: 0.03632258814573288

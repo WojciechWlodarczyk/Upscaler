@@ -1,0 +1,25 @@
+Epoch [1/400] Lr: 0.0000000 B: 1 Train Loss: 0.000217528698966 Test Loss: 0.087265470772982
+Epoch [2/400] Lr: 0.0000000 B: 1 Train Loss: 0.000218013267964 Test Loss: 0.087265470772982 => return to previous weights (1 attempt)
+Epoch [3/400] Lr: 0.0000000 B: 1 Train Loss: 0.000217682966776 Test Loss: 0.087265470772982 => return to previous weights (2 attempt)
+Epoch [4/400] Lr: 0.0010000 B: 1 Train Loss: 0.000028955898446 Test Loss: 0.002535765245208
+Epoch [5/400] Lr: 0.0010000 B: 1 Train Loss: 0.000003275406803 Test Loss: 0.000887345602154
+Epoch [6/400] Lr: 0.0010000 B: 1 Train Loss: 0.000001587296702 Test Loss: 0.000476025716285
+Epoch [7/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000947511754 Test Loss: 0.000324162658275
+Epoch [8/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000659103880 Test Loss: 0.000215955099055
+Epoch [9/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000468401081 Test Loss: 0.000169922607143
+Epoch [10/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000402449944 Test Loss: 0.000146246282922
+Epoch [11/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000390734303 Test Loss: 0.000135956292375
+Epoch [12/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000332478201 Test Loss: 0.000124455963654
+Epoch [13/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000286222730 Test Loss: 0.000119701541640
+Epoch [14/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000300406202 Test Loss: 0.000115650582906
+Epoch [15/400] Lr: 0.0010000 B: 1 Train Loss: 0.000000295920328 Test Loss: 0.000108919984377
+Epoch [16/400] Lr: 0.0100000 B: 1 Train Loss: 0.000004323652888 Test Loss: 0.000219904649057 => return to previous weights (1 attempt)
+Epoch [17/400] Lr: 0.0100000 B: 1 Train Loss: 0.000000754875165 Test Loss: 0.000135281991032 => return to previous weights (2 attempt)
+Epoch [18/400] Lr: 0.0100000 B: 1 Train Loss: 0.000000359927570 Test Loss: 0.000106908201124
+Epoch [19/400] Lr: 0.0030000 B: 1 Train Loss: 0.000000275798865 Test Loss: 0.000101092556244
+Epoch [20/400] Lr: 0.0030000 B: 1 Train Loss: 0.000000253478420 Test Loss: 0.000101696134101 => return to previous weights (1 attempt)
+Training stoped!
+=========================================================================
+Final epoch: 20
+Test loss: 0.000101092556244
+Final test loss: 0.000101605228312

@@ -1,0 +1,10 @@
+Reruning training!
+Starting test loss: 0.003894749211613
+Epoch [5/400] Lr: 0.0001000 B: 1 Train Loss: 0.000007978655714 Test Loss: 0.003088300184812
+Epoch [6/400] Lr: 0.0001000 B: 1 Train Loss: 0.000006474236396 Test Loss: 0.002275288485922
+Epoch [7/400] Lr: 0.0001000 B: 1 Train Loss: 0.000005686792679 Test Loss: 0.002139505809173
+Training stoped!
+=========================================================================
+Final epoch: 7
+Test loss: 0.002139505809173
+Final test loss: 0.002091607147770

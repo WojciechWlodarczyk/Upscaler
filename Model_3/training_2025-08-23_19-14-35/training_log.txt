@@ -1,0 +1,14 @@
+Reruning training!
+Starting test loss: 0.000057842905877
+Epoch [136/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000152688965 Test Loss: 0.000055270707631
+Epoch [137/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000136536899 Test Loss: 0.000059635814450 => return to previous weights (1 attempt)
+Epoch [138/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000143675433 Test Loss: 0.000058439750468 => return to previous weights (2 attempt)
+Epoch [139/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000158894497 Test Loss: 0.000062593387040 => return to previous weights (3 attempt)
+Epoch [140/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000137907668 Test Loss: 0.000061374512028 => return to previous weights (4 attempt)
+Epoch [141/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000158208747 Test Loss: 0.000061211623193 => return to previous weights (5 attempt)
+Epoch [142/400] Lr: 0.0001000 B: 1 Train Loss: 0.000000132591212 Test Loss: 0.000054006617665
+Training stoped!
+=========================================================================
+Final epoch: 142
+Test loss: 0.000054006617665
+Final test loss: 0.000051877903121

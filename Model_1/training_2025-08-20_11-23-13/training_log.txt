@@ -1,0 +1,44 @@
+Epoch [1/400] Lr: 0.0200000 B: 4 Train Loss: 0.000086158163473 Test Loss: 0.032299656145275
+Epoch [2/400] Lr: 0.0200000 B: 4 Train Loss: 0.000081925065257 Test Loss: 0.031746572954580
+Epoch [3/400] Lr: 0.0200000 B: 4 Train Loss: 0.000082791158743 Test Loss: 0.031708987819031
+Epoch [4/400] Lr: 0.0200000 B: 4 Train Loss: 0.000073849129304 Test Loss: 0.031880516450852 => return to previous weights
+Epoch [5/400] Lr: 0.0200000 B: 4 Train Loss: 0.000083138656616 Test Loss: 0.031892490561120 => return to previous weights
+Epoch [6/400] Lr: 0.0200000 B: 4 Train Loss: 0.000077356074564 Test Loss: 0.031742208928801 => return to previous weights
+Epoch [7/400] Lr: 0.0200000 B: 4 Train Loss: 0.000074423488416 Test Loss: 0.031959668006748 => return to previous weights
+Epoch [8/400] Lr: 0.0200000 B: 4 Train Loss: 0.000089075879566 Test Loss: 0.031735445684753 => return to previous weights
+Epoch [9/400] Lr: 0.0200000 B: 4 Train Loss: 0.000077995331213 Test Loss: 0.031823288103566 => return to previous weights
+Epoch [10/400] Lr: 0.0200000 B: 4 Train Loss: 0.000077409143280 Test Loss: 0.031825042219833 => return to previous weights
+Epoch [11/400] Lr: 0.0200000 B: 4 Train Loss: 0.000078330338560 Test Loss: 0.031725680561736 => return to previous weights
+Epoch [12/400] Lr: 0.0200000 B: 4 Train Loss: 0.000076085604727 Test Loss: 0.031927226603962 => return to previous weights
+Epoch [13/400] Lr: 0.0200000 B: 4 Train Loss: 0.000078767147847 Test Loss: 0.031727753569372 => return to previous weights
+Epoch [14/400] Lr: 0.0010000 B: 4 Train Loss: 0.000079507600516 Test Loss: 0.031730088333599 => return to previous weights
+Epoch [15/400] Lr: 0.0010000 B: 4 Train Loss: 0.000084376224130 Test Loss: 0.031736954558641 => return to previous weights
+Epoch [16/400] Lr: 0.0010000 B: 4 Train Loss: 0.000083291609585 Test Loss: 0.031733451288193 => return to previous weights
+Epoch [17/400] Lr: 0.0010000 B: 4 Train Loss: 0.000083762442507 Test Loss: 0.031734978427179 => return to previous weights
+Epoch [18/400] Lr: 0.0010000 B: 4 Train Loss: 0.000079778985493 Test Loss: 0.031716916827485 => return to previous weights
+Epoch [19/400] Lr: 0.0010000 B: 4 Train Loss: 0.000077414257545 Test Loss: 0.031704075306654
+Epoch [20/400] Lr: 0.0010000 B: 4 Train Loss: 0.000079645511881 Test Loss: 0.031702693288215
+Epoch [21/400] Lr: 0.0010000 B: 4 Train Loss: 0.000080990235228 Test Loss: 0.031701244274154
+Epoch [22/400] Lr: 0.0010000 B: 4 Train Loss: 0.000076939448621 Test Loss: 0.031699492016807
+Epoch [23/400] Lr: 0.0010000 B: 4 Train Loss: 0.000079245187156 Test Loss: 0.031698947587982
+Epoch [24/400] Lr: 0.0010000 B: 4 Train Loss: 0.000081105030421 Test Loss: 0.031695880608633
+Epoch [25/400] Lr: 0.0010000 B: 4 Train Loss: 0.000078957074508 Test Loss: 0.031701590236276 => return to previous weights
+Epoch [26/400] Lr: 0.0010000 B: 4 Train Loss: 0.000078548827581 Test Loss: 0.031706028044224 => return to previous weights
+Epoch [27/400] Lr: 0.0010000 B: 4 Train Loss: 0.000086291744746 Test Loss: 0.031708697822876 => return to previous weights
+Epoch [28/400] Lr: 0.0010000 B: 4 Train Loss: 0.000078616717737 Test Loss: 0.031719749407843 => return to previous weights
+Epoch [29/400] Lr: 0.0010000 B: 4 Train Loss: 0.000080061295442 Test Loss: 0.031719854822382 => return to previous weights
+Epoch [30/400] Lr: 0.0010000 B: 4 Train Loss: 0.000079262135923 Test Loss: 0.031715568864718 => return to previous weights
+Epoch [31/400] Lr: 0.0010000 B: 4 Train Loss: 0.000078233160637 Test Loss: 0.031714144858532 => return to previous weights
+Epoch [32/400] Lr: 0.0010000 B: 4 Train Loss: 0.000083533566445 Test Loss: 0.031736232834868 => return to previous weights
+Epoch [33/400] Lr: 0.0010000 B: 4 Train Loss: 0.000081986904796 Test Loss: 0.031736261651851 => return to previous weights
+Epoch [34/400] Lr: 0.0010000 B: 4 Train Loss: 0.000084743150510 Test Loss: 0.031735527906567 => return to previous weights
+Epoch [35/400] Lr: 0.0001000 B: 4 Train Loss: 0.000074921188876 Test Loss: 0.031735052929260 => return to previous weights
+Epoch [36/400] Lr: 0.0001000 B: 4 Train Loss: 0.000081616151053 Test Loss: 0.031735075125471 => return to previous weights
+Epoch [37/400] Lr: 0.0001000 B: 4 Train Loss: 0.000082401469443 Test Loss: 0.031734255626798 => return to previous weights
+Epoch [38/400] Lr: 0.0001000 B: 4 Train Loss: 0.000085237234645 Test Loss: 0.031732233932242 => return to previous weights
+Epoch [39/400] Lr: 0.0000010 B: 4 Train Loss: 0.000083224861603 Test Loss: 0.031732220799662 => return to previous weights
+Epoch [40/400] Lr: 0.0000010 B: 4 Train Loss: 0.000080798373371 Test Loss: 0.031732209190726 => return to previous weights
+Epoch [41/400] Lr: 0.0000010 B: 4 Train Loss: 0.000083382068574 Test Loss: 0.031732218806632 => return to previous weights
+Epoch [42/400] Lr: 0.0000010 B: 4 Train Loss: 0.000082984516397 Test Loss: 0.031732202175073 => return to previous weights
+Epoch [43/400] Lr: 0.0000010 B: 4 Train Loss: 0.000078576229699 Test Loss: 0.031732184249908 => return to previous weights
+Epoch [44/400] Lr: 0.0000010 B: 4 Train Loss: 0.000079178595729 Test Loss: 0.031732176105492 => return to previous weights
