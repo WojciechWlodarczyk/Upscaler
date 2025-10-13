@@ -1,0 +1,3 @@
+Reruning training!
+Starting test loss: 0.000063686397974
+Training stoped!

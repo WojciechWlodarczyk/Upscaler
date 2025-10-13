@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 from torch.utils.data import Subset, Dataset, DataLoader
 
-
+"""
 input_dir_train = 'D:/mojeAI/MyUpscalerDataSet/half_FHD'
 target_dir_train = 'D:/mojeAI/MyUpscalerDataSet/FHD'
 
@@ -16,17 +16,30 @@ target_dir_test = 'D:/mojeAI/MyUpscalerDataSet/FHD_test'
 
 input_dir_final_test = 'D:/mojeAI/MyUpscalerDataSet/half_FHD_final_test'
 target_dir_final_test = 'D:/mojeAI/MyUpscalerDataSet/FHD_final_test'
+"""
+
+input_dir_train = 'E:/mojeAI/upscaler/cut25/half_FHD'
+target_dir_train = 'E:/mojeAI/upscaler/cut25/FHD'
+
+input_dir_test = 'E:/mojeAI/upscaler/cut25/half_FHD_test'
+target_dir_test = 'E:/mojeAI/upscaler/cut25/FHD_test'
+
+input_dir_final_test = 'E:/mojeAI/upscaler/cut25/half_FHD_final_test'
+target_dir_final_test = 'E:/mojeAI/upscaler/cut25/FHD_final_test'
+
 
 class ImagePairDataset(Dataset):
     def __init__(self, input_dir, target_dir):
         self.input_files = sorted([os.path.join(input_dir, f) for f in os.listdir(input_dir)])
         self.target_files = sorted([os.path.join(target_dir, f) for f in os.listdir(target_dir)])
         self.input_transform = transforms.Compose([
-            transforms.Resize((540, 960)),
+        #    transforms.Resize((540, 960)),
+        #    transforms.Resize((108, 192)),
             transforms.ToTensor()
         ])
         self.target_transform = transforms.Compose([
-            transforms.Resize((1080, 1920)),
+        #    transforms.Resize((1080, 1920)),
+        #    transforms.Resize((216, 384)),
             transforms.ToTensor()
         ])
 

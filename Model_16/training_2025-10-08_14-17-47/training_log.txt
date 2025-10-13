@@ -1,0 +1,8 @@
+Reruning training!
+Starting test loss: 0.000068075783882
+Training stoped!
+Duration: 190.0450632572174 s
+=========================================================================
+Final epoch: 24
+Test loss: 0.000068075783882
+Final test loss: 0.000070221105356

@@ -1,0 +1,2 @@
+Reruning training!
+Starting test loss: 999.899999999999977

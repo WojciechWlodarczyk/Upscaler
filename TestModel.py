@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-
-
-def run_single_image(model, image_path, output_dir="D:/mojeAI/MyUpscalerDataSet/outputFHD"):
+def run_single_image(model, image_path, target_image, output_dir="D:/mojeAI/MyUpscalerDataSet/cut25/outputFHD", show=True):
     from PIL import Image
     # Utworzenie folderu output2, jeśli nie istnieje
     os.makedirs(output_dir, exist_ok=True)
@@ -14,14 +12,22 @@ def run_single_image(model, image_path, output_dir="D:/mojeAI/MyUpscalerDataSet/
     # Wczytanie i przygotowanie obrazu
     img = Image.open(image_path).convert('RGB')
     transform = transforms.Compose([
-        transforms.Resize((540, 960)),  # dopasuj do wymagań wejściowych modelu
+    #    transforms.Resize((540, 960)),  # dopasuj do wymagań wejściowych modelu
         transforms.ToTensor()
     ])
     input_tensor = transform(img).unsqueeze(0)
 
+    img_target = Image.open(target_image).convert('RGB')
+    transform = transforms.Compose([
+        #    transforms.Resize((540, 960)),  # dopasuj do wymagań wejściowych modelu
+        transforms.ToTensor()
+    ])
+    target_tensor = transform(img_target).unsqueeze(0)
+
     # Move the input tensor to the same device as the model
     device = next(model.parameters()).device
     input_tensor = input_tensor.to(device)
+    target_tensor = target_tensor.to(device)
 
     # Przepuszczenie przez model
     model.eval()
@@ -29,41 +35,65 @@ def run_single_image(model, image_path, output_dir="D:/mojeAI/MyUpscalerDataSet/
         output = model(input_tensor)
 
     # Konwersja do obrazów do wyświetlenia i zapisu
+    target_img_show = target_tensor.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
     input_img_show = input_tensor.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
     output_img_show = output.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
 
-    # Wyświetlenie obrazów
-    plt.figure(figsize=(12,6))
-    plt.subplot(1,2,1)
-    plt.title("Wejście")
-    plt.imshow(input_img_show)
-    plt.axis('off')
-    plt.subplot(1,2,2)
-    plt.title("Wyjście")
-    plt.imshow(output_img_show)
-    plt.axis('off')
-    plt.show()
+    if show:
+        plt.figure(figsize=(12,6))
+        plt.subplot(1, 2, 1)
+        plt.title("target")
+        plt.imshow(target_img_show)
+        plt.axis('off')
+        plt.subplot(1,2,2)
+        plt.title("upscaled")
+        plt.imshow(output_img_show)
+        plt.axis('off')
+        plt.show()
 
     # Zapisanie wyjściowego obrazu
     from PIL import Image
     import numpy as np
     output_img = (output_img_show * 255).astype(np.uint8)
     output_pil = Image.fromarray(output_img)
-    output_path = os.path.join(output_dir, os.path.basename(image_path))
+    output_path = os.path.join(output_dir, os.path.basename(image_path).replace("piece", "upscaled"))
     output_pil.save(output_path)
 
 
 def SimpleTest(model, path):
     output_dir = path + "//output"
 
-    image_path = 'D:/mojeAI/MyUpscalerDataSet/half_FHD/screenshot_1.png'
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_83.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_83.png'
+    #'D:/mojeAI/MyUpscalerDataSet/half_FHD/screenshot_1.png'
 
-    run_single_image(model, image_path, output_dir)
+    run_single_image(model, image_path, image_target_path, output_dir)
 
-    image_path = 'D:/mojeAI/MyUpscalerDataSet/half_FHD/screenshot_5.png'
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_308.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_308.png'
 
-    run_single_image(model, image_path, output_dir)
+    run_single_image(model, image_path, image_target_path, output_dir)
 
-    image_path = 'D:/mojeAI/MyUpscalerDataSet/half_FHD/screenshot_15.png'
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_313.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_313.png'
 
-    run_single_image(model, image_path, output_dir)
+    run_single_image(model, image_path, image_target_path, output_dir)
+
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_436.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_436.png'
+
+    run_single_image(model, image_path, image_target_path, output_dir)
+
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_743.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_743.png'
+
+    run_single_image(model, image_path, image_target_path, output_dir)
+
+def Upscale_83(model, path):
+    output_dir = path + "//output//Test"
+
+    image_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/half_FHD/piece_83.png'
+    image_target_path = 'D:/mojeAI/MyUpscalerDataSet/cut25/FHD/piece_83.png'
+    # 'D:/mojeAI/MyUpscalerDataSet/half_FHD/screenshot_1.png'
+
+    run_single_image(model, image_path, image_target_path, output_dir, False)

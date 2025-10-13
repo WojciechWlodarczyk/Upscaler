@@ -1,0 +1,19 @@
+Reruning training!
+Starting test loss: 0.000068075783882
+Epoch [25/400000] Lr: 0.0010000 B: 8 T:36.49s Train Loss: 0.000003562294831 Test Loss: 0.000229414667469 => worse loss (1 attempt)
+Epoch [26/400000] Lr: 0.0010000 B: 8 T:72.70s Train Loss: 0.000000508614123 Test Loss: 0.000171486802283 => worse loss (2 attempt)
+Epoch [27/400000] Lr: 0.0010000 B: 8 T:109.05s Train Loss: 0.000000240650061 Test Loss: 0.000069773815543 => worse loss (3 attempt)
+Epoch [28/400000] Lr: 0.0010000 B: 8 T:145.46s Train Loss: 0.000000177186174 Test Loss: 0.000063686397974
+Epoch [29/400000] Lr: 0.0010000 B: 1 T:183.79s Train Loss: 44877371.568064093589783 Test Loss: 51720.604062500002328 => worse loss (1 attempt)
+Epoch [30/400000] Lr: 0.0010000 B: 1 T:222.07s Train Loss: 78.292529929357343 Test Loss: 26819.471671874998719 => worse loss (2 attempt)
+Epoch [31/400000] Lr: 0.0010000 B: 1 T:260.45s Train Loss: 45.783206768488995 Test Loss: 12916.750406249999287 => worse loss (3 attempt)
+Epoch [32/400000] Lr: 0.0010000 B: 1 T:298.81s Train Loss: 22.326156028753282 Test Loss: 9083.632945312499942 => worse loss (4 attempt)
+Epoch [33/400000] Lr: 0.0010000 B: 1 T:337.20s Train Loss: 18.001665037841491 Test Loss: 6409.859394531249563 => worse loss (5 attempt)
+Epoch [34/400000] Lr: 0.0010000 B: 1 T:375.61s Train Loss: 12.580892598637941 Test Loss: 4994.510164062499825 => worse loss (6 attempt)
+Epoch [35/400000] Lr: 0.0010000 B: 1 T:414.10s Train Loss: 10.320673571713241 Test Loss: 3972.333250000000135 => worse loss (7 attempt)
+Training stoped!
+Duration: 607.2848417758942 s
+=========================================================================
+Final epoch: 35
+Test loss: 0.000063686397974
+Final test loss: 0.000060807285046
