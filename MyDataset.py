@@ -44,7 +44,6 @@ class ImagePairDataset(Dataset):
         ])
 
     def __len__(self):
-    #    print("Długość datasetu:", len(self.input_files), len(self.target_files))
         return len(self.input_files)
 
     def __getitem__(self, idx):

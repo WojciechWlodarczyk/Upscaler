@@ -1,0 +1,405 @@
+Epoch [1/400] Lr: 0.0050000 B: 8 T:3.52s Train Loss: 0.000142298149568 Test Loss: 0.013931365445256
+Epoch [2/400] Lr: 0.0050000 B: 8 T:6.28s Train Loss: 0.000027235268570 Test Loss: 0.008878954216838
+Epoch [3/400] Lr: 0.0050000 B: 8 T:9.04s Train Loss: 0.000020110139954 Test Loss: 0.006417362384498
+Epoch [4/400] Lr: 0.0050000 B: 8 T:11.79s Train Loss: 0.000013755739246 Test Loss: 0.004735943626612
+Epoch [5/400] Lr: 0.0050000 B: 8 T:14.60s Train Loss: 0.000010747486396 Test Loss: 0.003550083272159
+Epoch [6/400] Lr: 0.0050000 B: 8 T:17.39s Train Loss: 0.000007642316771 Test Loss: 0.002425252053887
+Epoch [7/400] Lr: 0.0050000 B: 8 T:20.17s Train Loss: 0.000005362531127 Test Loss: 0.001948871472850
+Epoch [8/400] Lr: 0.0050000 B: 8 T:22.95s Train Loss: 0.000004796178084 Test Loss: 0.001699647866189
+Epoch [9/400] Lr: 0.0050000 B: 8 T:25.71s Train Loss: 0.000004128710089 Test Loss: 0.001498116048984
+Epoch [10/400] Lr: 0.0050000 B: 8 T:28.45s Train Loss: 0.000003672667401 Test Loss: 0.001310240830295
+Epoch [11/400] Lr: 0.0050000 B: 8 T:31.24s Train Loss: 0.000003066525384 Test Loss: 0.001129850066267
+Epoch [12/400] Lr: 0.0050000 B: 8 T:34.04s Train Loss: 0.000003390979729 Test Loss: 0.000925003372133
+Epoch [13/400] Lr: 0.0050000 B: 8 T:36.82s Train Loss: 0.000002034567886 Test Loss: 0.000770159690175
+Epoch [14/400] Lr: 0.0050000 B: 8 T:39.58s Train Loss: 0.000001770101132 Test Loss: 0.000651337151881
+Epoch [15/400] Lr: 0.0050000 B: 8 T:42.36s Train Loss: 0.000001534377310 Test Loss: 0.000552931697108
+Epoch [16/400] Lr: 0.0050000 B: 8 T:45.12s Train Loss: 0.000000986930143 Test Loss: 0.000527307938784
+Epoch [17/400] Lr: 0.0050000 B: 8 T:47.89s Train Loss: 0.000001102959214 Test Loss: 0.000452167212497
+Epoch [18/400] Lr: 0.0050000 B: 8 T:50.67s Train Loss: 0.000001052221906 Test Loss: 0.000406635683263
+Epoch [19/400] Lr: 0.0050000 B: 8 T:53.45s Train Loss: 0.000001030892062 Test Loss: 0.000373144150944
+Epoch [20/400] Lr: 0.0050000 B: 8 T:56.24s Train Loss: 0.000000940661906 Test Loss: 0.000347847264959
+Epoch [21/400] Lr: 0.0050000 B: 8 T:59.01s Train Loss: 0.000000797184614 Test Loss: 0.000330976897851
+Epoch [22/400] Lr: 0.0050000 B: 8 T:61.77s Train Loss: 0.000000806617249 Test Loss: 0.000320884450339
+Epoch [23/400] Lr: 0.0050000 B: 8 T:64.54s Train Loss: 0.000000717804926 Test Loss: 0.000303781541064
+Epoch [24/400] Lr: 0.0050000 B: 8 T:67.35s Train Loss: 0.000000783996374 Test Loss: 0.000295654664282
+Epoch [25/400] Lr: 0.0050000 B: 8 T:70.12s Train Loss: 0.000000708946964 Test Loss: 0.000297029515728 => worse loss (1 attempt)
+Epoch [26/400] Lr: 0.0050000 B: 8 T:72.90s Train Loss: 0.000000652217890 Test Loss: 0.000279045569012
+Epoch [27/400] Lr: 0.0050000 B: 8 T:75.66s Train Loss: 0.000000621328113 Test Loss: 0.000265459986404
+Epoch [28/400] Lr: 0.0050000 B: 8 T:78.43s Train Loss: 0.000000612021840 Test Loss: 0.000264053134480
+Epoch [29/400] Lr: 0.0050000 B: 8 T:81.21s Train Loss: 0.000000582438365 Test Loss: 0.000255101884250
+Epoch [30/400] Lr: 0.0050000 B: 8 T:83.97s Train Loss: 0.000000565753121 Test Loss: 0.000244983426295
+Epoch [31/400] Lr: 0.0050000 B: 8 T:86.77s Train Loss: 0.000000575799571 Test Loss: 0.000244645699393
+Epoch [32/400] Lr: 0.0050000 B: 8 T:89.54s Train Loss: 0.000000562725934 Test Loss: 0.000243829760933
+Epoch [33/400] Lr: 0.0050000 B: 8 T:92.31s Train Loss: 0.000000558327304 Test Loss: 0.000229932631482
+Epoch [34/400] Lr: 0.0050000 B: 8 T:95.09s Train Loss: 0.000000487775293 Test Loss: 0.000234465609072 => worse loss (1 attempt)
+Epoch [35/400] Lr: 0.0050000 B: 8 T:97.87s Train Loss: 0.000000636499255 Test Loss: 0.000235833443468 => worse loss (2 attempt)
+Epoch [36/400] Lr: 0.0050000 B: 8 T:100.64s Train Loss: 0.000000556567467 Test Loss: 0.000215987753239
+Epoch [37/400] Lr: 0.0050000 B: 8 T:103.42s Train Loss: 0.000000515450974 Test Loss: 0.000208476466592
+Epoch [38/400] Lr: 0.0050000 B: 8 T:106.19s Train Loss: 0.000000520628592 Test Loss: 0.000203150550253
+Epoch [39/400] Lr: 0.0050000 B: 8 T:108.95s Train Loss: 0.000000498831842 Test Loss: 0.000202812505537
+Epoch [40/400] Lr: 0.0050000 B: 8 T:111.71s Train Loss: 0.000000422470310 Test Loss: 0.000196233126451
+Epoch [41/400] Lr: 0.0050000 B: 8 T:114.47s Train Loss: 0.000000396974369 Test Loss: 0.000193958855001
+Epoch [42/400] Lr: 0.0050000 B: 8 T:117.28s Train Loss: 0.000000474650694 Test Loss: 0.000190397872822
+Epoch [43/400] Lr: 0.0050000 B: 8 T:120.05s Train Loss: 0.000000395965032 Test Loss: 0.000186452679220
+Epoch [44/400] Lr: 0.0050000 B: 8 T:122.81s Train Loss: 0.000000479889145 Test Loss: 0.000184466442792
+Epoch [45/400] Lr: 0.0050000 B: 8 T:125.62s Train Loss: 0.000000440495450 Test Loss: 0.000197381331120 => worse loss (1 attempt)
+Epoch [46/400] Lr: 0.0050000 B: 8 T:128.40s Train Loss: 0.000000506416875 Test Loss: 0.000183337786584
+Epoch [47/400] Lr: 0.0050000 B: 8 T:131.16s Train Loss: 0.000000402709195 Test Loss: 0.000178911592579
+Epoch [48/400] Lr: 0.0050000 B: 8 T:133.95s Train Loss: 0.000000438716815 Test Loss: 0.000181511086295 => worse loss (1 attempt)
+Epoch [49/400] Lr: 0.0050000 B: 8 T:136.75s Train Loss: 0.000000458368389 Test Loss: 0.000173911841121
+Epoch [50/400] Lr: 0.0050000 B: 8 T:139.55s Train Loss: 0.000000403615953 Test Loss: 0.000169151616050
+Epoch [51/400] Lr: 0.0050000 B: 8 T:142.36s Train Loss: 0.000000420642461 Test Loss: 0.000167214794434
+Epoch [52/400] Lr: 0.0050000 B: 8 T:145.12s Train Loss: 0.000000347348133 Test Loss: 0.000166134408675
+Epoch [53/400] Lr: 0.0050000 B: 8 T:147.87s Train Loss: 0.000000396912350 Test Loss: 0.000168923309888 => worse loss (1 attempt)
+Epoch [54/400] Lr: 0.0050000 B: 8 T:150.61s Train Loss: 0.000000338971804 Test Loss: 0.000165006746072
+Epoch [55/400] Lr: 0.0050000 B: 8 T:153.36s Train Loss: 0.000000357004289 Test Loss: 0.000164004100719
+Epoch [56/400] Lr: 0.0050000 B: 8 T:156.13s Train Loss: 0.000000405298198 Test Loss: 0.000160205035238
+Epoch [57/400] Lr: 0.0050000 B: 8 T:158.91s Train Loss: 0.000000434709760 Test Loss: 0.000165499205701 => worse loss (1 attempt)
+Epoch [58/400] Lr: 0.0050000 B: 8 T:161.66s Train Loss: 0.000000404960308 Test Loss: 0.000160022275290
+Epoch [59/400] Lr: 0.0050000 B: 8 T:164.45s Train Loss: 0.000000414058691 Test Loss: 0.000157757411012
+Epoch [60/400] Lr: 0.0050000 B: 8 T:167.25s Train Loss: 0.000000425744471 Test Loss: 0.000156856039655
+Epoch [61/400] Lr: 0.0050000 B: 8 T:170.01s Train Loss: 0.000000343542731 Test Loss: 0.000152647578390
+Epoch [62/400] Lr: 0.0050000 B: 8 T:172.79s Train Loss: 0.000000418692022 Test Loss: 0.000149692854728
+Epoch [63/400] Lr: 0.0050000 B: 8 T:175.55s Train Loss: 0.000000385403745 Test Loss: 0.000153357197996 => worse loss (1 attempt)
+Epoch [64/400] Lr: 0.0050000 B: 8 T:178.33s Train Loss: 0.000000387090951 Test Loss: 0.000157469748287 => worse loss (2 attempt)
+Epoch [65/400] Lr: 0.0050000 B: 8 T:181.08s Train Loss: 0.000000351127632 Test Loss: 0.000146351404721
+Epoch [66/400] Lr: 0.0050000 B: 8 T:183.86s Train Loss: 0.000000346314950 Test Loss: 0.000152254898567 => worse loss (1 attempt)
+Epoch [67/400] Lr: 0.0050000 B: 8 T:186.64s Train Loss: 0.000000328232840 Test Loss: 0.000147761784727 => worse loss (2 attempt)
+Epoch [68/400] Lr: 0.0050000 B: 8 T:189.53s Train Loss: 0.000000407686078 Test Loss: 0.000147820711834 => worse loss (3 attempt)
+Epoch [69/400] Lr: 0.0050000 B: 8 T:197.79s Train Loss: 0.000000315284306 Test Loss: 0.000151624773745 => worse loss (4 attempt)
+Epoch [70/400] Lr: 0.0050000 B: 8 T:202.81s Train Loss: 0.000000323673424 Test Loss: 0.000143756113306
+Epoch [71/400] Lr: 0.0050000 B: 8 T:205.75s Train Loss: 0.000000326308811 Test Loss: 0.000170447500539 => worse loss (1 attempt)
+Epoch [72/400] Lr: 0.0050000 B: 8 T:208.53s Train Loss: 0.000000368317487 Test Loss: 0.000171472114162 => worse loss (2 attempt)
+Epoch [73/400] Lr: 0.0050000 B: 8 T:211.28s Train Loss: 0.000000315808261 Test Loss: 0.000141221800586
+Epoch [74/400] Lr: 0.0050000 B: 8 T:214.07s Train Loss: 0.000000305987803 Test Loss: 0.000136950814631
+Epoch [75/400] Lr: 0.0050000 B: 8 T:216.84s Train Loss: 0.000000358298050 Test Loss: 0.000163219912793 => worse loss (1 attempt)
+Epoch [76/400] Lr: 0.0050000 B: 8 T:219.59s Train Loss: 0.000000476797307 Test Loss: 0.000169727087254 => worse loss (2 attempt)
+Epoch [77/400] Lr: 0.0050000 B: 8 T:222.39s Train Loss: 0.000000361762475 Test Loss: 0.000146642478008 => worse loss (3 attempt)
+Epoch [78/400] Lr: 0.0050000 B: 8 T:225.16s Train Loss: 0.000000343912748 Test Loss: 0.000154875049251 => worse loss (4 attempt)
+Epoch [79/400] Lr: 0.0050000 B: 8 T:227.94s Train Loss: 0.000000429135417 Test Loss: 0.000137808231404 => worse loss (5 attempt)
+Epoch [80/400] Lr: 0.0050000 B: 8 T:230.71s Train Loss: 0.000000316315313 Test Loss: 0.000168988697464 => worse loss (6 attempt)
+Epoch [81/400] Lr: 0.0050000 B: 8 T:233.49s Train Loss: 0.000000633100592 Test Loss: 0.000389518381329 => worse loss (7 attempt)
+Epoch [82/400] Lr: 0.0050000 B: 8 T:236.27s Train Loss: 0.000000436749045 Test Loss: 0.000141485587112 => worse loss (8 attempt)
+Epoch [83/400] Lr: 0.0050000 B: 8 T:239.05s Train Loss: 0.000000365345491 Test Loss: 0.000204469173797 => worse loss (9 attempt)
+Epoch [84/400] Lr: 0.0050000 B: 8 T:241.81s Train Loss: 0.000000413207928 Test Loss: 0.000134391643631
+Epoch [85/400] Lr: 0.0050000 B: 8 T:244.59s Train Loss: 0.000000297354948 Test Loss: 0.000136249679839 => worse loss (1 attempt)
+Epoch [86/400] Lr: 0.0050000 B: 8 T:247.37s Train Loss: 0.000000290094130 Test Loss: 0.000145304944599 => worse loss (2 attempt)
+Epoch [87/400] Lr: 0.0050000 B: 8 T:250.17s Train Loss: 0.000000305200325 Test Loss: 0.000132036792638
+Epoch [88/400] Lr: 0.0050000 B: 8 T:252.93s Train Loss: 0.000000273396713 Test Loss: 0.000133505073376 => worse loss (1 attempt)
+Epoch [89/400] Lr: 0.0050000 B: 8 T:255.68s Train Loss: 0.000000308331582 Test Loss: 0.000131631897297
+Epoch [90/400] Lr: 0.0050000 B: 8 T:258.47s Train Loss: 0.000000312055179 Test Loss: 0.000126488239446
+Epoch [91/400] Lr: 0.0050000 B: 8 T:261.25s Train Loss: 0.000000310976413 Test Loss: 0.000140165395569 => worse loss (1 attempt)
+Epoch [92/400] Lr: 0.0050000 B: 8 T:264.02s Train Loss: 0.000000491483798 Test Loss: 0.000152362907713 => worse loss (2 attempt)
+Epoch [93/400] Lr: 0.0050000 B: 8 T:266.84s Train Loss: 0.000000407966433 Test Loss: 0.000136255363584 => worse loss (3 attempt)
+Epoch [94/400] Lr: 0.0050000 B: 8 T:269.63s Train Loss: 0.000000389809125 Test Loss: 0.000143122716399 => worse loss (4 attempt)
+Epoch [95/400] Lr: 0.0050000 B: 8 T:272.38s Train Loss: 0.000000336461244 Test Loss: 0.000128439672058 => worse loss (5 attempt)
+Epoch [96/400] Lr: 0.0050000 B: 8 T:275.12s Train Loss: 0.000000304561912 Test Loss: 0.000155276114820 => worse loss (6 attempt)
+Epoch [97/400] Lr: 0.0050000 B: 8 T:277.88s Train Loss: 0.000000615353743 Test Loss: 0.000444491768721 => worse loss (7 attempt)
+Epoch [98/400] Lr: 0.0050000 B: 8 T:280.63s Train Loss: 0.000000576932918 Test Loss: 0.000127033227764 => worse loss (8 attempt)
+Epoch [99/400] Lr: 0.0050000 B: 8 T:283.40s Train Loss: 0.000000415108059 Test Loss: 0.000209670867887 => worse loss (9 attempt)
+Epoch [100/400] Lr: 0.0050000 B: 8 T:286.17s Train Loss: 0.000000903407093 Test Loss: 0.000167280365597 => worse loss (10 attempt)
+Epoch [101/400] Lr: 0.0050000 B: 8 T:288.94s Train Loss: 0.000001148465697 Test Loss: 0.000398744689999 => worse loss (11 attempt)
+Epoch [102/400] Lr: 0.0050000 B: 8 T:291.69s Train Loss: 0.000000617001612 Test Loss: 0.000148814341868 => worse loss (12 attempt)
+Epoch [103/400] Lr: 0.0050000 B: 8 T:294.44s Train Loss: 0.000000298349510 Test Loss: 0.000128523240448 => worse loss (13 attempt)
+Epoch [104/400] Lr: 0.0050000 B: 8 T:297.20s Train Loss: 0.000000262341364 Test Loss: 0.000124073238694
+Epoch [105/400] Lr: 0.0050000 B: 8 T:299.96s Train Loss: 0.000000263220709 Test Loss: 0.000119932318688
+Epoch [106/400] Lr: 0.0050000 B: 8 T:302.75s Train Loss: 0.000000307787734 Test Loss: 0.000131069893949 => worse loss (1 attempt)
+Epoch [107/400] Lr: 0.0050000 B: 8 T:305.52s Train Loss: 0.000000688538654 Test Loss: 0.000172057682299 => worse loss (2 attempt)
+Epoch [108/400] Lr: 0.0050000 B: 8 T:308.28s Train Loss: 0.000000490176355 Test Loss: 0.000127554932260 => worse loss (3 attempt)
+Epoch [109/400] Lr: 0.0050000 B: 8 T:311.05s Train Loss: 0.000000328477586 Test Loss: 0.000124968940741 => worse loss (4 attempt)
+Epoch [110/400] Lr: 0.0050000 B: 8 T:313.81s Train Loss: 0.000000257543608 Test Loss: 0.000121597689809 => worse loss (5 attempt)
+Epoch [111/400] Lr: 0.0050000 B: 8 T:316.62s Train Loss: 0.000000308975931 Test Loss: 0.000114966123481
+Epoch [112/400] Lr: 0.0050000 B: 8 T:319.38s Train Loss: 0.000000261038795 Test Loss: 0.000139481117483 => worse loss (1 attempt)
+Epoch [113/400] Lr: 0.0050000 B: 8 T:322.18s Train Loss: 0.000000335389317 Test Loss: 0.000115166433272 => worse loss (2 attempt)
+Epoch [114/400] Lr: 0.0050000 B: 8 T:324.97s Train Loss: 0.000000287227724 Test Loss: 0.000122099202010 => worse loss (3 attempt)
+Epoch [115/400] Lr: 0.0050000 B: 8 T:327.73s Train Loss: 0.000000288584472 Test Loss: 0.000123625243665 => worse loss (4 attempt)
+Epoch [116/400] Lr: 0.0050000 B: 8 T:330.53s Train Loss: 0.000000293256960 Test Loss: 0.000117385922349 => worse loss (5 attempt)
+Epoch [117/400] Lr: 0.0050000 B: 8 T:333.29s Train Loss: 0.000000286494617 Test Loss: 0.000330211597262 => worse loss (6 attempt)
+Epoch [118/400] Lr: 0.0050000 B: 8 T:336.07s Train Loss: 0.000000593849085 Test Loss: 0.000121945126739 => worse loss (7 attempt)
+Epoch [119/400] Lr: 0.0050000 B: 8 T:338.84s Train Loss: 0.000000660065197 Test Loss: 0.000351280977717 => worse loss (8 attempt)
+Epoch [120/400] Lr: 0.0050000 B: 8 T:341.60s Train Loss: 0.000000453269464 Test Loss: 0.000119284577202 => worse loss (9 attempt)
+Epoch [121/400] Lr: 0.0050000 B: 8 T:344.36s Train Loss: 0.000000294509221 Test Loss: 0.000116125450004 => worse loss (10 attempt)
+Epoch [122/400] Lr: 0.0050000 B: 8 T:347.13s Train Loss: 0.000000362387913 Test Loss: 0.000110807802877
+Epoch [123/400] Lr: 0.0050000 B: 8 T:349.88s Train Loss: 0.000000318930756 Test Loss: 0.000119995511195 => worse loss (1 attempt)
+Epoch [124/400] Lr: 0.0050000 B: 8 T:352.66s Train Loss: 0.000000333681676 Test Loss: 0.000127020528889 => worse loss (2 attempt)
+Epoch [125/400] Lr: 0.0050000 B: 8 T:355.42s Train Loss: 0.000000291921582 Test Loss: 0.000114581782371 => worse loss (3 attempt)
+Epoch [126/400] Lr: 0.0050000 B: 8 T:358.19s Train Loss: 0.000000241586583 Test Loss: 0.000121227914060 => worse loss (4 attempt)
+Epoch [127/400] Lr: 0.0050000 B: 8 T:360.98s Train Loss: 0.000000231348873 Test Loss: 0.000104653942282
+Epoch [128/400] Lr: 0.0050000 B: 8 T:363.74s Train Loss: 0.000000243335138 Test Loss: 0.000110939650040 => worse loss (1 attempt)
+Epoch [129/400] Lr: 0.0050000 B: 8 T:366.51s Train Loss: 0.000000235341970 Test Loss: 0.000105821728241 => worse loss (2 attempt)
+Epoch [130/400] Lr: 0.0050000 B: 8 T:369.27s Train Loss: 0.000000261517137 Test Loss: 0.000103753312782
+Epoch [131/400] Lr: 0.0050000 B: 8 T:372.03s Train Loss: 0.000000280996163 Test Loss: 0.000177494516480 => worse loss (1 attempt)
+Epoch [132/400] Lr: 0.0050000 B: 8 T:374.76s Train Loss: 0.000000489880875 Test Loss: 0.000188848418300 => worse loss (2 attempt)
+Epoch [133/400] Lr: 0.0050000 B: 8 T:377.52s Train Loss: 0.000000391423969 Test Loss: 0.000182357275859 => worse loss (3 attempt)
+Epoch [134/400] Lr: 0.0050000 B: 8 T:380.30s Train Loss: 0.000000408773668 Test Loss: 0.000141010932741 => worse loss (4 attempt)
+Epoch [135/400] Lr: 0.0050000 B: 8 T:383.07s Train Loss: 0.000000325262399 Test Loss: 0.000115881861711 => worse loss (5 attempt)
+Epoch [136/400] Lr: 0.0050000 B: 8 T:385.85s Train Loss: 0.000000267533401 Test Loss: 0.000107865132799 => worse loss (6 attempt)
+Epoch [137/400] Lr: 0.0050000 B: 8 T:388.60s Train Loss: 0.000000249759368 Test Loss: 0.000107164598245 => worse loss (7 attempt)
+Epoch [138/400] Lr: 0.0050000 B: 8 T:391.36s Train Loss: 0.000000276309653 Test Loss: 0.000103879480797 => worse loss (8 attempt)
+Epoch [139/400] Lr: 0.0050000 B: 8 T:394.14s Train Loss: 0.000000301401335 Test Loss: 0.000109437915031 => worse loss (9 attempt)
+Epoch [140/400] Lr: 0.0050000 B: 8 T:396.85s Train Loss: 0.000000236440296 Test Loss: 0.000107155524020 => worse loss (10 attempt)
+Epoch [141/400] Lr: 0.0050000 B: 8 T:399.67s Train Loss: 0.000000245760691 Test Loss: 0.000104601384606 => worse loss (11 attempt)
+Epoch [142/400] Lr: 0.0050000 B: 8 T:402.43s Train Loss: 0.000000258465842 Test Loss: 0.000098391618114
+Epoch [143/400] Lr: 0.0050000 B: 8 T:405.21s Train Loss: 0.000000233482102 Test Loss: 0.000101307891193 => worse loss (1 attempt)
+Epoch [144/400] Lr: 0.0050000 B: 8 T:407.96s Train Loss: 0.000000235706881 Test Loss: 0.000103058052890 => worse loss (2 attempt)
+Epoch [145/400] Lr: 0.0050000 B: 8 T:410.73s Train Loss: 0.000000281938472 Test Loss: 0.000100636940799 => worse loss (3 attempt)
+Epoch [146/400] Lr: 0.0050000 B: 8 T:413.52s Train Loss: 0.000000224685557 Test Loss: 0.000102490505902 => worse loss (4 attempt)
+Epoch [147/400] Lr: 0.0050000 B: 8 T:416.29s Train Loss: 0.000000268551831 Test Loss: 0.000132966164500 => worse loss (5 attempt)
+Epoch [148/400] Lr: 0.0050000 B: 8 T:419.09s Train Loss: 0.000002395497125 Test Loss: 0.000831646842882 => worse loss (6 attempt)
+Epoch [149/400] Lr: 0.0050000 B: 8 T:421.86s Train Loss: 0.000002180474999 Test Loss: 0.000173594282125 => worse loss (7 attempt)
+Epoch [150/400] Lr: 0.0050000 B: 8 T:424.61s Train Loss: 0.000000313868445 Test Loss: 0.000110676167649 => worse loss (8 attempt)
+Epoch [151/400] Lr: 0.0050000 B: 8 T:427.40s Train Loss: 0.000000261105703 Test Loss: 0.000104607856716 => worse loss (9 attempt)
+Epoch [152/400] Lr: 0.0050000 B: 8 T:430.16s Train Loss: 0.000000228645988 Test Loss: 0.000097334990976
+Epoch [153/400] Lr: 0.0050000 B: 8 T:432.96s Train Loss: 0.000000252728162 Test Loss: 0.000097922740038 => worse loss (1 attempt)
+Epoch [154/400] Lr: 0.0050000 B: 8 T:435.72s Train Loss: 0.000000205866621 Test Loss: 0.000099111446645 => worse loss (2 attempt)
+Epoch [155/400] Lr: 0.0050000 B: 8 T:438.49s Train Loss: 0.000000235736599 Test Loss: 0.000100249227427 => worse loss (3 attempt)
+Epoch [156/400] Lr: 0.0050000 B: 8 T:441.25s Train Loss: 0.000000254880885 Test Loss: 0.000138942128397 => worse loss (4 attempt)
+Epoch [157/400] Lr: 0.0050000 B: 8 T:444.02s Train Loss: 0.000000286512688 Test Loss: 0.000095939109335
+Epoch [158/400] Lr: 0.0050000 B: 8 T:446.83s Train Loss: 0.000000255066421 Test Loss: 0.000139345568197 => worse loss (1 attempt)
+Epoch [159/400] Lr: 0.0050000 B: 8 T:449.62s Train Loss: 0.000000290962707 Test Loss: 0.000113234421064 => worse loss (2 attempt)
+Epoch [160/400] Lr: 0.0050000 B: 8 T:452.42s Train Loss: 0.000000273131522 Test Loss: 0.000110852116719 => worse loss (3 attempt)
+Epoch [161/400] Lr: 0.0050000 B: 8 T:455.17s Train Loss: 0.000000221877233 Test Loss: 0.000093517499045
+Epoch [162/400] Lr: 0.0050000 B: 8 T:457.95s Train Loss: 0.000000240478469 Test Loss: 0.000115847832058 => worse loss (1 attempt)
+Epoch [163/400] Lr: 0.0050000 B: 8 T:460.75s Train Loss: 0.000000325458622 Test Loss: 0.000094888457039 => worse loss (2 attempt)
+Epoch [164/400] Lr: 0.0050000 B: 8 T:463.51s Train Loss: 0.000000228526150 Test Loss: 0.000094196680584 => worse loss (3 attempt)
+Epoch [165/400] Lr: 0.0050000 B: 8 T:466.29s Train Loss: 0.000000325000510 Test Loss: 0.000100801798457 => worse loss (4 attempt)
+Epoch [166/400] Lr: 0.0050000 B: 8 T:469.07s Train Loss: 0.000000208702105 Test Loss: 0.000093660424405 => worse loss (5 attempt)
+Epoch [167/400] Lr: 0.0050000 B: 8 T:471.81s Train Loss: 0.000000201390421 Test Loss: 0.000087354625051
+Epoch [168/400] Lr: 0.0050000 B: 8 T:474.57s Train Loss: 0.000000194229013 Test Loss: 0.000085913642601
+Epoch [169/400] Lr: 0.0050000 B: 8 T:477.36s Train Loss: 0.000000233729207 Test Loss: 0.000108961092657 => worse loss (1 attempt)
+Epoch [170/400] Lr: 0.0050000 B: 8 T:480.11s Train Loss: 0.000000209286846 Test Loss: 0.000086676107894 => worse loss (2 attempt)
+Epoch [171/400] Lr: 0.0050000 B: 8 T:482.88s Train Loss: 0.000000205543967 Test Loss: 0.000094405558193 => worse loss (3 attempt)
+Epoch [172/400] Lr: 0.0050000 B: 8 T:485.69s Train Loss: 0.000000214506175 Test Loss: 0.000090600668977 => worse loss (4 attempt)
+Epoch [173/400] Lr: 0.0050000 B: 8 T:488.46s Train Loss: 0.000000290013212 Test Loss: 0.000112171259534 => worse loss (5 attempt)
+Epoch [174/400] Lr: 0.0050000 B: 8 T:491.25s Train Loss: 0.000000241142939 Test Loss: 0.000100434419757 => worse loss (6 attempt)
+Epoch [175/400] Lr: 0.0050000 B: 8 T:494.04s Train Loss: 0.000000188990015 Test Loss: 0.000086953992490 => worse loss (7 attempt)
+Epoch [176/400] Lr: 0.0050000 B: 8 T:496.84s Train Loss: 0.000000272374106 Test Loss: 0.000279631440761 => worse loss (8 attempt)
+Epoch [177/400] Lr: 0.0050000 B: 8 T:499.58s Train Loss: 0.000000459273609 Test Loss: 0.000104313499818 => worse loss (9 attempt)
+Epoch [178/400] Lr: 0.0050000 B: 8 T:502.34s Train Loss: 0.000000231782524 Test Loss: 0.000090987736650 => worse loss (10 attempt)
+Epoch [179/400] Lr: 0.0050000 B: 8 T:505.12s Train Loss: 0.000000217168119 Test Loss: 0.000083882404491
+Epoch [180/400] Lr: 0.0050000 B: 8 T:507.89s Train Loss: 0.000000192308991 Test Loss: 0.000078743059654
+Epoch [181/400] Lr: 0.0050000 B: 8 T:510.66s Train Loss: 0.000000192029484 Test Loss: 0.000084818333853 => worse loss (1 attempt)
+Epoch [182/400] Lr: 0.0050000 B: 8 T:513.42s Train Loss: 0.000000194327955 Test Loss: 0.000093416968652 => worse loss (2 attempt)
+Epoch [183/400] Lr: 0.0050000 B: 8 T:516.22s Train Loss: 0.000000274821081 Test Loss: 0.000176660497556 => worse loss (3 attempt)
+Epoch [184/400] Lr: 0.0050000 B: 8 T:519.01s Train Loss: 0.000000318376183 Test Loss: 0.000103680015018 => worse loss (4 attempt)
+Epoch [185/400] Lr: 0.0050000 B: 8 T:521.79s Train Loss: 0.000000259440641 Test Loss: 0.000091378290672 => worse loss (5 attempt)
+Epoch [186/400] Lr: 0.0050000 B: 8 T:524.60s Train Loss: 0.000000250996431 Test Loss: 0.000083963387297 => worse loss (6 attempt)
+Epoch [187/400] Lr: 0.0050000 B: 8 T:527.38s Train Loss: 0.000000205300143 Test Loss: 0.000100180541805 => worse loss (7 attempt)
+Epoch [188/400] Lr: 0.0050000 B: 8 T:530.16s Train Loss: 0.000000204892757 Test Loss: 0.000089511527040 => worse loss (8 attempt)
+Epoch [189/400] Lr: 0.0050000 B: 8 T:532.93s Train Loss: 0.000000159722166 Test Loss: 0.000082188034139 => worse loss (9 attempt)
+Epoch [190/400] Lr: 0.0050000 B: 8 T:535.71s Train Loss: 0.000000214221731 Test Loss: 0.000077076948131
+Epoch [191/400] Lr: 0.0050000 B: 8 T:538.49s Train Loss: 0.000000199599862 Test Loss: 0.000090995169798 => worse loss (1 attempt)
+Epoch [192/400] Lr: 0.0050000 B: 8 T:541.27s Train Loss: 0.000000228305778 Test Loss: 0.000127882869681 => worse loss (2 attempt)
+Epoch [193/400] Lr: 0.0050000 B: 8 T:544.05s Train Loss: 0.000000368802508 Test Loss: 0.000117836537771 => worse loss (3 attempt)
+Epoch [194/400] Lr: 0.0050000 B: 8 T:546.80s Train Loss: 0.000000353187440 Test Loss: 0.000095219681389 => worse loss (4 attempt)
+Epoch [195/400] Lr: 0.0050000 B: 8 T:549.59s Train Loss: 0.000002117473846 Test Loss: 0.000419594266452 => worse loss (5 attempt)
+Epoch [196/400] Lr: 0.0050000 B: 8 T:552.37s Train Loss: 0.000001196891290 Test Loss: 0.000159114216454 => worse loss (6 attempt)
+Epoch [197/400] Lr: 0.0050000 B: 8 T:555.15s Train Loss: 0.000000330781796 Test Loss: 0.000098295772506 => worse loss (7 attempt)
+Epoch [198/400] Lr: 0.0050000 B: 8 T:557.92s Train Loss: 0.000000216584048 Test Loss: 0.000086521974183 => worse loss (8 attempt)
+Epoch [199/400] Lr: 0.0050000 B: 8 T:560.69s Train Loss: 0.000000180395948 Test Loss: 0.000079928252497 => worse loss (9 attempt)
+Epoch [200/400] Lr: 0.0050000 B: 8 T:563.43s Train Loss: 0.000000166765309 Test Loss: 0.000088786670007 => worse loss (10 attempt)
+Epoch [201/400] Lr: 0.0050000 B: 8 T:566.19s Train Loss: 0.000000231428722 Test Loss: 0.000090072524152 => worse loss (11 attempt)
+Epoch [202/400] Lr: 0.0050000 B: 8 T:568.96s Train Loss: 0.000000203471095 Test Loss: 0.000082716106379 => worse loss (12 attempt)
+Epoch [203/400] Lr: 0.0050000 B: 8 T:571.72s Train Loss: 0.000000167714863 Test Loss: 0.000073519715574
+Epoch [204/400] Lr: 0.0050000 B: 8 T:574.50s Train Loss: 0.000000217998123 Test Loss: 0.000083497494634 => worse loss (1 attempt)
+Epoch [205/400] Lr: 0.0050000 B: 8 T:577.30s Train Loss: 0.000000230328110 Test Loss: 0.000076137667173 => worse loss (2 attempt)
+Epoch [206/400] Lr: 0.0050000 B: 8 T:580.06s Train Loss: 0.000000189363989 Test Loss: 0.000073465669586
+Epoch [207/400] Lr: 0.0050000 B: 8 T:582.83s Train Loss: 0.000000212094045 Test Loss: 0.000111515456636 => worse loss (1 attempt)
+Epoch [208/400] Lr: 0.0050000 B: 8 T:585.58s Train Loss: 0.000000224054664 Test Loss: 0.000080988386559 => worse loss (2 attempt)
+Epoch [209/400] Lr: 0.0050000 B: 8 T:588.35s Train Loss: 0.000000285161504 Test Loss: 0.000160150355077 => worse loss (3 attempt)
+Epoch [210/400] Lr: 0.0050000 B: 8 T:591.11s Train Loss: 0.000000877991630 Test Loss: 0.000115145618562 => worse loss (4 attempt)
+Epoch [211/400] Lr: 0.0050000 B: 8 T:593.88s Train Loss: 0.000000416901485 Test Loss: 0.000085519250395 => worse loss (5 attempt)
+Epoch [212/400] Lr: 0.0050000 B: 8 T:596.64s Train Loss: 0.000000204316736 Test Loss: 0.000088124664209 => worse loss (6 attempt)
+Epoch [213/400] Lr: 0.0050000 B: 8 T:599.39s Train Loss: 0.000000173178887 Test Loss: 0.000074542794522 => worse loss (7 attempt)
+Epoch [214/400] Lr: 0.0050000 B: 8 T:602.18s Train Loss: 0.000000182045488 Test Loss: 0.000075482622138 => worse loss (8 attempt)
+Epoch [215/400] Lr: 0.0050000 B: 8 T:604.98s Train Loss: 0.000000193006745 Test Loss: 0.000081845031877 => worse loss (9 attempt)
+Epoch [216/400] Lr: 0.0050000 B: 8 T:607.71s Train Loss: 0.000000173306538 Test Loss: 0.000079975938454 => worse loss (10 attempt)
+Epoch [217/400] Lr: 0.0050000 B: 8 T:610.49s Train Loss: 0.000000208292358 Test Loss: 0.000116690579918 => worse loss (11 attempt)
+Epoch [218/400] Lr: 0.0050000 B: 8 T:613.24s Train Loss: 0.000000228539576 Test Loss: 0.000114259787835 => worse loss (12 attempt)
+Epoch [219/400] Lr: 0.0050000 B: 8 T:616.01s Train Loss: 0.000000256200398 Test Loss: 0.000085789418488 => worse loss (13 attempt)
+Epoch [220/400] Lr: 0.0050000 B: 8 T:618.78s Train Loss: 0.000000229772438 Test Loss: 0.000078641427390 => worse loss (14 attempt)
+Epoch [221/400] Lr: 0.0050000 B: 8 T:621.54s Train Loss: 0.000000156146416 Test Loss: 0.000070791075850
+Epoch [222/400] Lr: 0.0050000 B: 8 T:624.31s Train Loss: 0.000000185184580 Test Loss: 0.000073728047078 => worse loss (1 attempt)
+Epoch [223/400] Lr: 0.0050000 B: 8 T:627.10s Train Loss: 0.000000255067925 Test Loss: 0.000147265304578 => worse loss (2 attempt)
+Epoch [224/400] Lr: 0.0050000 B: 8 T:629.87s Train Loss: 0.000000731509949 Test Loss: 0.000104308825801 => worse loss (3 attempt)
+Epoch [225/400] Lr: 0.0050000 B: 8 T:632.63s Train Loss: 0.000000286089534 Test Loss: 0.000085503787675 => worse loss (4 attempt)
+Epoch [226/400] Lr: 0.0050000 B: 8 T:635.40s Train Loss: 0.000000208034995 Test Loss: 0.000085987819912 => worse loss (5 attempt)
+Epoch [227/400] Lr: 0.0050000 B: 8 T:638.15s Train Loss: 0.000000188716761 Test Loss: 0.000076433485548 => worse loss (6 attempt)
+Epoch [228/400] Lr: 0.0050000 B: 8 T:640.93s Train Loss: 0.000000221475819 Test Loss: 0.000090358947113 => worse loss (7 attempt)
+Epoch [229/400] Lr: 0.0050000 B: 8 T:643.72s Train Loss: 0.000000576046761 Test Loss: 0.000343952349620 => worse loss (8 attempt)
+Epoch [230/400] Lr: 0.0050000 B: 8 T:646.49s Train Loss: 0.000000340003883 Test Loss: 0.000106684998609 => worse loss (9 attempt)
+Epoch [231/400] Lr: 0.0050000 B: 8 T:649.27s Train Loss: 0.000000227968077 Test Loss: 0.000075597676507 => worse loss (10 attempt)
+Epoch [232/400] Lr: 0.0050000 B: 8 T:652.06s Train Loss: 0.000000182604909 Test Loss: 0.000074423522892 => worse loss (11 attempt)
+Epoch [233/400] Lr: 0.0050000 B: 8 T:654.82s Train Loss: 0.000000185072634 Test Loss: 0.000091229366662 => worse loss (12 attempt)
+Epoch [234/400] Lr: 0.0050000 B: 8 T:657.59s Train Loss: 0.000000217679232 Test Loss: 0.000106244448165 => worse loss (13 attempt)
+Epoch [235/400] Lr: 0.0050000 B: 8 T:660.36s Train Loss: 0.000000184788781 Test Loss: 0.000072590717202 => worse loss (14 attempt)
+Epoch [236/400] Lr: 0.0050000 B: 8 T:663.16s Train Loss: 0.000000241738806 Test Loss: 0.000072532950231 => worse loss (15 attempt)
+Epoch [237/400] Lr: 0.0050000 B: 8 T:665.95s Train Loss: 0.000000183400809 Test Loss: 0.000070320164727
+Epoch [238/400] Lr: 0.0050000 B: 8 T:668.71s Train Loss: 0.000000159059415 Test Loss: 0.000074257439788 => worse loss (1 attempt)
+Epoch [239/400] Lr: 0.0050000 B: 8 T:671.53s Train Loss: 0.000000183224378 Test Loss: 0.000069847436331
+Epoch [240/400] Lr: 0.0050000 B: 8 T:674.31s Train Loss: 0.000000167638053 Test Loss: 0.000070644076477 => worse loss (1 attempt)
+Epoch [241/400] Lr: 0.0050000 B: 8 T:677.08s Train Loss: 0.000000168141759 Test Loss: 0.000084676713741 => worse loss (2 attempt)
+Epoch [242/400] Lr: 0.0050000 B: 8 T:679.86s Train Loss: 0.000000197465206 Test Loss: 0.000106380933430 => worse loss (3 attempt)
+Epoch [243/400] Lr: 0.0050000 B: 8 T:682.64s Train Loss: 0.000001153145283 Test Loss: 0.001415072246455 => worse loss (4 attempt)
+Epoch [244/400] Lr: 0.0050000 B: 8 T:685.41s Train Loss: 0.000001060614633 Test Loss: 0.000099516828079 => worse loss (5 attempt)
+Epoch [245/400] Lr: 0.0050000 B: 8 T:688.20s Train Loss: 0.000000223093340 Test Loss: 0.000075710172387 => worse loss (6 attempt)
+Epoch [246/400] Lr: 0.0050000 B: 8 T:690.97s Train Loss: 0.000000169702596 Test Loss: 0.000081916980416 => worse loss (7 attempt)
+Epoch [247/400] Lr: 0.0050000 B: 8 T:693.73s Train Loss: 0.000000192425293 Test Loss: 0.000080045570125 => worse loss (8 attempt)
+Epoch [248/400] Lr: 0.0050000 B: 8 T:696.48s Train Loss: 0.000000145570416 Test Loss: 0.000094670894730 => worse loss (9 attempt)
+Epoch [249/400] Lr: 0.0050000 B: 8 T:699.26s Train Loss: 0.000000202531476 Test Loss: 0.000115295614611 => worse loss (10 attempt)
+Epoch [250/400] Lr: 0.0050000 B: 8 T:702.03s Train Loss: 0.000000209885667 Test Loss: 0.000071353323845 => worse loss (11 attempt)
+Epoch [251/400] Lr: 0.0050000 B: 8 T:704.82s Train Loss: 0.000000232562772 Test Loss: 0.000070847341558 => worse loss (12 attempt)
+Epoch [252/400] Lr: 0.0050000 B: 8 T:707.60s Train Loss: 0.000000162146736 Test Loss: 0.000079548659531 => worse loss (13 attempt)
+Epoch [253/400] Lr: 0.0050000 B: 8 T:710.38s Train Loss: 0.000000217403677 Test Loss: 0.000068582367239
+Epoch [254/400] Lr: 0.0050000 B: 8 T:713.18s Train Loss: 0.000000197114206 Test Loss: 0.000089750685729 => worse loss (1 attempt)
+Epoch [255/400] Lr: 0.0050000 B: 8 T:715.94s Train Loss: 0.000000235765269 Test Loss: 0.000121672178153 => worse loss (2 attempt)
+Epoch [256/400] Lr: 0.0050000 B: 8 T:718.72s Train Loss: 0.000000637182284 Test Loss: 0.000720009606332 => worse loss (3 attempt)
+Epoch [257/400] Lr: 0.0050000 B: 8 T:721.52s Train Loss: 0.000001610383669 Test Loss: 0.000151020994759 => worse loss (4 attempt)
+Epoch [258/400] Lr: 0.0050000 B: 8 T:724.30s Train Loss: 0.000000357881460 Test Loss: 0.000113011871872 => worse loss (5 attempt)
+Epoch [259/400] Lr: 0.0050000 B: 8 T:727.07s Train Loss: 0.000000213843897 Test Loss: 0.000094096913235 => worse loss (6 attempt)
+Epoch [260/400] Lr: 0.0050000 B: 8 T:729.82s Train Loss: 0.000000177325608 Test Loss: 0.000073539881385 => worse loss (7 attempt)
+Epoch [261/400] Lr: 0.0050000 B: 8 T:732.58s Train Loss: 0.000000154563886 Test Loss: 0.000074286565330 => worse loss (8 attempt)
+Epoch [262/400] Lr: 0.0050000 B: 8 T:735.34s Train Loss: 0.000000169428570 Test Loss: 0.000075468727620 => worse loss (9 attempt)
+Epoch [263/400] Lr: 0.0050000 B: 8 T:738.08s Train Loss: 0.000000121686721 Test Loss: 0.000076423834718 => worse loss (10 attempt)
+Epoch [264/400] Lr: 0.0050000 B: 8 T:740.87s Train Loss: 0.000000219718840 Test Loss: 0.000068862236192 => worse loss (11 attempt)
+Epoch [265/400] Lr: 0.0050000 B: 8 T:743.63s Train Loss: 0.000000157844636 Test Loss: 0.000068555685197
+Epoch [266/400] Lr: 0.0050000 B: 8 T:746.42s Train Loss: 0.000000237547329 Test Loss: 0.000078897789324 => worse loss (1 attempt)
+Epoch [267/400] Lr: 0.0050000 B: 8 T:749.21s Train Loss: 0.000000222766229 Test Loss: 0.000075169769465 => worse loss (2 attempt)
+Epoch [268/400] Lr: 0.0050000 B: 8 T:752.00s Train Loss: 0.000000210289056 Test Loss: 0.000073580073105 => worse loss (3 attempt)
+Epoch [269/400] Lr: 0.0050000 B: 8 T:754.81s Train Loss: 0.000000205503316 Test Loss: 0.000075589571148 => worse loss (4 attempt)
+Epoch [270/400] Lr: 0.0050000 B: 8 T:757.63s Train Loss: 0.000000182772924 Test Loss: 0.000080860585615 => worse loss (5 attempt)
+Epoch [271/400] Lr: 0.0050000 B: 8 T:760.37s Train Loss: 0.000000152380500 Test Loss: 0.000071515268239 => worse loss (6 attempt)
+Epoch [272/400] Lr: 0.0050000 B: 8 T:763.11s Train Loss: 0.000000181656179 Test Loss: 0.000067578921618
+Epoch [273/400] Lr: 0.0050000 B: 8 T:765.93s Train Loss: 0.000000195968588 Test Loss: 0.000073164923815 => worse loss (1 attempt)
+Epoch [274/400] Lr: 0.0050000 B: 8 T:768.68s Train Loss: 0.000000141948842 Test Loss: 0.000071518585231 => worse loss (2 attempt)
+Epoch [275/400] Lr: 0.0050000 B: 8 T:771.46s Train Loss: 0.000000222281255 Test Loss: 0.000090352204628 => worse loss (3 attempt)
+Epoch [276/400] Lr: 0.0050000 B: 8 T:774.23s Train Loss: 0.000000228066473 Test Loss: 0.000083240220614 => worse loss (4 attempt)
+Epoch [277/400] Lr: 0.0050000 B: 8 T:777.01s Train Loss: 0.000000293167761 Test Loss: 0.000084668278811 => worse loss (5 attempt)
+Epoch [278/400] Lr: 0.0050000 B: 8 T:779.80s Train Loss: 0.000000200226221 Test Loss: 0.000079533140204 => worse loss (6 attempt)
+Epoch [279/400] Lr: 0.0050000 B: 8 T:782.56s Train Loss: 0.000000288154200 Test Loss: 0.000081849538430 => worse loss (7 attempt)
+Epoch [280/400] Lr: 0.0050000 B: 8 T:785.32s Train Loss: 0.000000167418505 Test Loss: 0.000095419285703 => worse loss (8 attempt)
+Epoch [281/400] Lr: 0.0050000 B: 8 T:788.08s Train Loss: 0.000000204872959 Test Loss: 0.000096397644433 => worse loss (9 attempt)
+Epoch [282/400] Lr: 0.0050000 B: 8 T:790.87s Train Loss: 0.000000362907277 Test Loss: 0.000104156356188 => worse loss (10 attempt)
+Epoch [283/400] Lr: 0.0050000 B: 8 T:793.63s Train Loss: 0.000000183660101 Test Loss: 0.000084354905557 => worse loss (11 attempt)
+Epoch [284/400] Lr: 0.0050000 B: 8 T:796.39s Train Loss: 0.000000193179685 Test Loss: 0.000092147519870 => worse loss (12 attempt)
+Epoch [285/400] Lr: 0.0050000 B: 8 T:799.19s Train Loss: 0.000000226195662 Test Loss: 0.000085785208386 => worse loss (13 attempt)
+Epoch [286/400] Lr: 0.0050000 B: 8 T:801.97s Train Loss: 0.000000198694352 Test Loss: 0.000071518871089 => worse loss (14 attempt)
+Epoch [287/400] Lr: 0.0050000 B: 8 T:804.77s Train Loss: 0.000000210379921 Test Loss: 0.000092026339669 => worse loss (15 attempt)
+Epoch [288/400] Lr: 0.0050000 B: 8 T:807.54s Train Loss: 0.000000179603485 Test Loss: 0.000070625290566 => worse loss (16 attempt)
+Epoch [289/400] Lr: 0.0050000 B: 8 T:810.36s Train Loss: 0.000000184511551 Test Loss: 0.000068728779414 => worse loss (17 attempt)
+Epoch [290/400] Lr: 0.0050000 B: 8 T:813.14s Train Loss: 0.000000163118339 Test Loss: 0.000073722972767 => worse loss (18 attempt)
+Epoch [291/400] Lr: 0.0050000 B: 8 T:815.94s Train Loss: 0.000000269230982 Test Loss: 0.000187344449922 => worse loss (19 attempt)
+Epoch [292/400] Lr: 0.0050000 B: 8 T:818.73s Train Loss: 0.000000285670251 Test Loss: 0.000139459115395 => worse loss (20 attempt)
+Epoch [293/400] Lr: 0.0050000 B: 8 T:821.50s Train Loss: 0.000000386299998 Test Loss: 0.000223313799361 => worse loss (21 attempt)
+Epoch [294/400] Lr: 0.0050000 B: 8 T:824.26s Train Loss: 0.000000406161735 Test Loss: 0.000108394277457 => worse loss (22 attempt)
+Epoch [295/400] Lr: 0.0050000 B: 8 T:827.03s Train Loss: 0.000000237957727 Test Loss: 0.000084596397704 => worse loss (23 attempt)
+Epoch [296/400] Lr: 0.0050000 B: 8 T:829.81s Train Loss: 0.000001657119210 Test Loss: 0.000501497531019 => worse loss (24 attempt)
+Epoch [297/400] Lr: 0.0050000 B: 8 T:832.57s Train Loss: 0.000000401410737 Test Loss: 0.000088756209996 => worse loss (25 attempt)
+Epoch [298/400] Lr: 0.0050000 B: 8 T:835.36s Train Loss: 0.000000227025423 Test Loss: 0.000076622310968 => worse loss (26 attempt)
+Epoch [299/400] Lr: 0.0050000 B: 8 T:838.16s Train Loss: 0.000000185060347 Test Loss: 0.000071323520271 => worse loss (27 attempt)
+Epoch [300/400] Lr: 0.0050000 B: 8 T:840.91s Train Loss: 0.000000178580325 Test Loss: 0.000070544413553 => worse loss (28 attempt)
+Epoch [301/400] Lr: 0.0050000 B: 8 T:843.68s Train Loss: 0.000000156921245 Test Loss: 0.000066851585492
+Epoch [302/400] Lr: 0.0050000 B: 8 T:846.48s Train Loss: 0.000000203089168 Test Loss: 0.000078130471054 => worse loss (1 attempt)
+Epoch [303/400] Lr: 0.0050000 B: 8 T:849.25s Train Loss: 0.000000186733959 Test Loss: 0.000080960671068 => worse loss (2 attempt)
+Epoch [304/400] Lr: 0.0050000 B: 8 T:852.03s Train Loss: 0.000000202907224 Test Loss: 0.000096458821732 => worse loss (3 attempt)
+Epoch [305/400] Lr: 0.0050000 B: 8 T:854.80s Train Loss: 0.000000194137924 Test Loss: 0.000084144650958 => worse loss (4 attempt)
+Epoch [306/400] Lr: 0.0050000 B: 8 T:857.54s Train Loss: 0.000000206039935 Test Loss: 0.000085297015117 => worse loss (5 attempt)
+Epoch [307/400] Lr: 0.0050000 B: 8 T:860.31s Train Loss: 0.000000237005408 Test Loss: 0.000080057185376 => worse loss (6 attempt)
+Epoch [308/400] Lr: 0.0050000 B: 8 T:863.06s Train Loss: 0.000000162757354 Test Loss: 0.000089126639767 => worse loss (7 attempt)
+Epoch [309/400] Lr: 0.0050000 B: 8 T:865.82s Train Loss: 0.000000306319212 Test Loss: 0.000088669612305 => worse loss (8 attempt)
+Epoch [310/400] Lr: 0.0050000 B: 8 T:868.60s Train Loss: 0.000002482783767 Test Loss: 0.000421615511936 => worse loss (9 attempt)
+Epoch [311/400] Lr: 0.0050000 B: 8 T:871.39s Train Loss: 0.000001219688935 Test Loss: 0.000298301662086 => worse loss (10 attempt)
+Epoch [312/400] Lr: 0.0050000 B: 8 T:874.14s Train Loss: 0.000000553333328 Test Loss: 0.000152089746320 => worse loss (11 attempt)
+Epoch [313/400] Lr: 0.0050000 B: 8 T:876.91s Train Loss: 0.000000263977638 Test Loss: 0.000084318923182 => worse loss (12 attempt)
+Epoch [314/400] Lr: 0.0050000 B: 8 T:879.68s Train Loss: 0.000000205926937 Test Loss: 0.000072824317234 => worse loss (13 attempt)
+Epoch [315/400] Lr: 0.0050000 B: 8 T:882.45s Train Loss: 0.000000173957148 Test Loss: 0.000076377478719 => worse loss (14 attempt)
+Epoch [316/400] Lr: 0.0050000 B: 8 T:885.22s Train Loss: 0.000000164681231 Test Loss: 0.000074461413169 => worse loss (15 attempt)
+Epoch [317/400] Lr: 0.0050000 B: 8 T:888.00s Train Loss: 0.000000171954314 Test Loss: 0.000069227555534 => worse loss (16 attempt)
+Epoch [318/400] Lr: 0.0050000 B: 8 T:890.77s Train Loss: 0.000000225792396 Test Loss: 0.000089443149162 => worse loss (17 attempt)
+Epoch [319/400] Lr: 0.0050000 B: 8 T:893.54s Train Loss: 0.000000219794556 Test Loss: 0.000079466812080 => worse loss (18 attempt)
+Epoch [320/400] Lr: 0.0050000 B: 8 T:896.31s Train Loss: 0.000000167303160 Test Loss: 0.000083223402937 => worse loss (19 attempt)
+Epoch [321/400] Lr: 0.0050000 B: 8 T:899.07s Train Loss: 0.000000136724518 Test Loss: 0.000072627470829 => worse loss (20 attempt)
+Epoch [322/400] Lr: 0.0050000 B: 8 T:901.82s Train Loss: 0.000000169118656 Test Loss: 0.000076647042006 => worse loss (21 attempt)
+Epoch [323/400] Lr: 0.0050000 B: 8 T:904.58s Train Loss: 0.000000173537630 Test Loss: 0.000066740133392
+Epoch [324/400] Lr: 0.0050000 B: 8 T:907.34s Train Loss: 0.000000145894881 Test Loss: 0.000071456268168 => worse loss (1 attempt)
+Epoch [325/400] Lr: 0.0050000 B: 8 T:910.11s Train Loss: 0.000000148318172 Test Loss: 0.000071886942344 => worse loss (2 attempt)
+Epoch [326/400] Lr: 0.0050000 B: 8 T:912.91s Train Loss: 0.000000180907132 Test Loss: 0.000090464985202 => worse loss (3 attempt)
+Epoch [327/400] Lr: 0.0050000 B: 8 T:915.66s Train Loss: 0.000000158642433 Test Loss: 0.000069882480777 => worse loss (4 attempt)
+Epoch [328/400] Lr: 0.0050000 B: 8 T:918.45s Train Loss: 0.000000184856984 Test Loss: 0.000068000762665 => worse loss (5 attempt)
+Epoch [329/400] Lr: 0.0050000 B: 8 T:921.20s Train Loss: 0.000000127583894 Test Loss: 0.000081150425016 => worse loss (6 attempt)
+Epoch [330/400] Lr: 0.0050000 B: 8 T:923.98s Train Loss: 0.000000169804484 Test Loss: 0.000072066628374 => worse loss (7 attempt)
+Epoch [331/400] Lr: 0.0050000 B: 8 T:926.77s Train Loss: 0.000000235723529 Test Loss: 0.000118850175524 => worse loss (8 attempt)
+Epoch [332/400] Lr: 0.0050000 B: 8 T:929.57s Train Loss: 0.000000206305003 Test Loss: 0.000073985982453 => worse loss (9 attempt)
+Epoch [333/400] Lr: 0.0050000 B: 8 T:932.34s Train Loss: 0.000000210115661 Test Loss: 0.000086298333597 => worse loss (10 attempt)
+Epoch [334/400] Lr: 0.0050000 B: 8 T:935.11s Train Loss: 0.000000210803734 Test Loss: 0.000070387179527 => worse loss (11 attempt)
+Epoch [335/400] Lr: 0.0050000 B: 8 T:937.90s Train Loss: 0.000000181112615 Test Loss: 0.000071578698029 => worse loss (12 attempt)
+Epoch [336/400] Lr: 0.0050000 B: 8 T:940.67s Train Loss: 0.000000272758811 Test Loss: 0.000333039036253 => worse loss (13 attempt)
+Epoch [337/400] Lr: 0.0050000 B: 8 T:943.45s Train Loss: 0.000002000900871 Test Loss: 0.000121337505989 => worse loss (14 attempt)
+Epoch [338/400] Lr: 0.0050000 B: 8 T:946.20s Train Loss: 0.000001695777745 Test Loss: 0.000760296891443 => worse loss (15 attempt)
+Epoch [339/400] Lr: 0.0050000 B: 8 T:948.98s Train Loss: 0.000001817056995 Test Loss: 0.000238427358214 => worse loss (16 attempt)
+Epoch [340/400] Lr: 0.0050000 B: 8 T:951.76s Train Loss: 0.000000796566729 Test Loss: 0.000147214572644 => worse loss (17 attempt)
+Epoch [341/400] Lr: 0.0050000 B: 8 T:954.52s Train Loss: 0.000000383638291 Test Loss: 0.000086268029234 => worse loss (18 attempt)
+Epoch [342/400] Lr: 0.0050000 B: 8 T:957.29s Train Loss: 0.000000185528332 Test Loss: 0.000075686354656 => worse loss (19 attempt)
+Epoch [343/400] Lr: 0.0050000 B: 8 T:960.09s Train Loss: 0.000000173857051 Test Loss: 0.000083125058503 => worse loss (20 attempt)
+Epoch [344/400] Lr: 0.0050000 B: 8 T:962.86s Train Loss: 0.000000183922703 Test Loss: 0.000068901257415 => worse loss (21 attempt)
+Epoch [345/400] Lr: 0.0050000 B: 8 T:965.62s Train Loss: 0.000000171998387 Test Loss: 0.000073553692200 => worse loss (22 attempt)
+Epoch [346/400] Lr: 0.0050000 B: 8 T:968.38s Train Loss: 0.000000136911927 Test Loss: 0.000068540033972 => worse loss (23 attempt)
+Epoch [347/400] Lr: 0.0050000 B: 8 T:971.14s Train Loss: 0.000000154113103 Test Loss: 0.000081093121116 => worse loss (24 attempt)
+Epoch [348/400] Lr: 0.0050000 B: 8 T:973.90s Train Loss: 0.000000139478677 Test Loss: 0.000076487857325 => worse loss (25 attempt)
+Epoch [349/400] Lr: 0.0050000 B: 8 T:976.69s Train Loss: 0.000000181817162 Test Loss: 0.000072465890174 => worse loss (26 attempt)
+Epoch [350/400] Lr: 0.0050000 B: 8 T:979.45s Train Loss: 0.000000144210295 Test Loss: 0.000072178950242 => worse loss (27 attempt)
+Epoch [351/400] Lr: 0.0050000 B: 8 T:982.24s Train Loss: 0.000000169536598 Test Loss: 0.000065065202769
+Epoch [352/400] Lr: 0.0050000 B: 8 T:985.02s Train Loss: 0.000000158365684 Test Loss: 0.000068644901912 => worse loss (1 attempt)
+Epoch [353/400] Lr: 0.0050000 B: 8 T:987.79s Train Loss: 0.000000161611297 Test Loss: 0.000065632739337 => worse loss (2 attempt)
+Epoch [354/400] Lr: 0.0050000 B: 8 T:990.57s Train Loss: 0.000000150950483 Test Loss: 0.000066156827379 => worse loss (3 attempt)
+Epoch [355/400] Lr: 0.0050000 B: 8 T:993.35s Train Loss: 0.000000153506657 Test Loss: 0.000069268313498 => worse loss (4 attempt)
+Epoch [356/400] Lr: 0.0050000 B: 8 T:996.12s Train Loss: 0.000000156636818 Test Loss: 0.000069321951392 => worse loss (5 attempt)
+Epoch [357/400] Lr: 0.0050000 B: 8 T:998.90s Train Loss: 0.000000153901322 Test Loss: 0.000068541728338 => worse loss (6 attempt)
+Epoch [358/400] Lr: 0.0050000 B: 8 T:1001.67s Train Loss: 0.000000129234651 Test Loss: 0.000066197509965 => worse loss (7 attempt)
+Epoch [359/400] Lr: 0.0050000 B: 8 T:1004.45s Train Loss: 0.000000178299132 Test Loss: 0.000074500767078 => worse loss (8 attempt)
+Epoch [360/400] Lr: 0.0050000 B: 8 T:1007.23s Train Loss: 0.000000160569973 Test Loss: 0.000064787177165
+Epoch [361/400] Lr: 0.0050000 B: 8 T:1009.99s Train Loss: 0.000000142194875 Test Loss: 0.000069297051377 => worse loss (1 attempt)
+Epoch [362/400] Lr: 0.0050000 B: 8 T:1012.74s Train Loss: 0.000000152903806 Test Loss: 0.000064815230959 => worse loss (2 attempt)
+Epoch [363/400] Lr: 0.0050000 B: 8 T:1015.51s Train Loss: 0.000000130047388 Test Loss: 0.000067682627705 => worse loss (3 attempt)
+Epoch [364/400] Lr: 0.0050000 B: 8 T:1018.27s Train Loss: 0.000000121909787 Test Loss: 0.000065350894642 => worse loss (4 attempt)
+Epoch [365/400] Lr: 0.0050000 B: 8 T:1021.05s Train Loss: 0.000000146763250 Test Loss: 0.000091909965791 => worse loss (5 attempt)
+Epoch [366/400] Lr: 0.0050000 B: 8 T:1023.81s Train Loss: 0.000000156470309 Test Loss: 0.000074123660976 => worse loss (6 attempt)
+Epoch [367/400] Lr: 0.0050000 B: 8 T:1026.56s Train Loss: 0.000000145173098 Test Loss: 0.000066205801617 => worse loss (7 attempt)
+Epoch [368/400] Lr: 0.0050000 B: 8 T:1029.35s Train Loss: 0.000000141070235 Test Loss: 0.000073319950752 => worse loss (8 attempt)
+Epoch [369/400] Lr: 0.0050000 B: 8 T:1032.14s Train Loss: 0.000000165424322 Test Loss: 0.000065921845380 => worse loss (9 attempt)
+Epoch [370/400] Lr: 0.0050000 B: 8 T:1034.92s Train Loss: 0.000000186523177 Test Loss: 0.000086115126265 => worse loss (10 attempt)
+Epoch [371/400] Lr: 0.0050000 B: 8 T:1037.69s Train Loss: 0.000000223421552 Test Loss: 0.000070463456330 => worse loss (11 attempt)
+Epoch [372/400] Lr: 0.0050000 B: 8 T:1040.49s Train Loss: 0.000000224352379 Test Loss: 0.000127123653307 => worse loss (12 attempt)
+Epoch [373/400] Lr: 0.0050000 B: 8 T:1043.27s Train Loss: 0.000000264813010 Test Loss: 0.000078449395718 => worse loss (13 attempt)
+Epoch [374/400] Lr: 0.0050000 B: 8 T:1046.03s Train Loss: 0.000000211540013 Test Loss: 0.000073245665350 => worse loss (14 attempt)
+Epoch [375/400] Lr: 0.0050000 B: 8 T:1048.80s Train Loss: 0.000000181485565 Test Loss: 0.000066509671713 => worse loss (15 attempt)
+Epoch [376/400] Lr: 0.0050000 B: 8 T:1051.59s Train Loss: 0.000000198366016 Test Loss: 0.000073749998293 => worse loss (16 attempt)
+Epoch [377/400] Lr: 0.0050000 B: 8 T:1054.37s Train Loss: 0.000000161161709 Test Loss: 0.000063254581648
+Epoch [378/400] Lr: 0.0050000 B: 8 T:1057.15s Train Loss: 0.000000156564388 Test Loss: 0.000065839825664 => worse loss (1 attempt)
+Epoch [379/400] Lr: 0.0050000 B: 8 T:1059.93s Train Loss: 0.000000162461966 Test Loss: 0.000066065750114 => worse loss (2 attempt)
+Epoch [380/400] Lr: 0.0050000 B: 8 T:1062.69s Train Loss: 0.000000131065555 Test Loss: 0.000074039171624 => worse loss (3 attempt)
+Epoch [381/400] Lr: 0.0050000 B: 8 T:1065.46s Train Loss: 0.000000222272657 Test Loss: 0.000155089680920 => worse loss (4 attempt)
+Epoch [382/400] Lr: 0.0050000 B: 8 T:1068.25s Train Loss: 0.000000281101434 Test Loss: 0.000159855806327 => worse loss (5 attempt)
+Epoch [383/400] Lr: 0.0050000 B: 8 T:1071.03s Train Loss: 0.000000590248038 Test Loss: 0.000114282171533 => worse loss (6 attempt)
+Epoch [384/400] Lr: 0.0050000 B: 8 T:1073.79s Train Loss: 0.000000262478079 Test Loss: 0.000138377196039 => worse loss (7 attempt)
+Epoch [385/400] Lr: 0.0050000 B: 8 T:1076.57s Train Loss: 0.000000194786481 Test Loss: 0.000066057530901 => worse loss (8 attempt)
+Epoch [386/400] Lr: 0.0050000 B: 8 T:1079.32s Train Loss: 0.000000162232169 Test Loss: 0.000079962626769 => worse loss (9 attempt)
+Epoch [387/400] Lr: 0.0050000 B: 8 T:1082.16s Train Loss: 0.000000175087154 Test Loss: 0.000067177337129 => worse loss (10 attempt)
+Epoch [388/400] Lr: 0.0050000 B: 8 T:1085.01s Train Loss: 0.000000188604519 Test Loss: 0.000072533541388 => worse loss (11 attempt)
+Epoch [389/400] Lr: 0.0050000 B: 8 T:1087.83s Train Loss: 0.000000200051794 Test Loss: 0.000096590282104 => worse loss (12 attempt)
+Epoch [390/400] Lr: 0.0050000 B: 8 T:1090.64s Train Loss: 0.000000239059818 Test Loss: 0.000077437889006 => worse loss (13 attempt)
+Epoch [391/400] Lr: 0.0050000 B: 8 T:1093.47s Train Loss: 0.000000306655862 Test Loss: 0.000090272520145 => worse loss (14 attempt)
+Epoch [392/400] Lr: 0.0050000 B: 8 T:1096.26s Train Loss: 0.000000244428406 Test Loss: 0.000118299403694 => worse loss (15 attempt)
+Epoch [393/400] Lr: 0.0050000 B: 8 T:1099.05s Train Loss: 0.000000249176589 Test Loss: 0.000098698539892 => worse loss (16 attempt)
+Epoch [394/400] Lr: 0.0050000 B: 8 T:1101.80s Train Loss: 0.000000175312002 Test Loss: 0.000070228285709 => worse loss (17 attempt)
+Epoch [395/400] Lr: 0.0050000 B: 8 T:1104.64s Train Loss: 0.000000225223334 Test Loss: 0.000080187843705 => worse loss (18 attempt)
+Epoch [396/400] Lr: 0.0050000 B: 8 T:1107.44s Train Loss: 0.000000172752146 Test Loss: 0.000067262100521 => worse loss (19 attempt)
+Epoch [397/400] Lr: 0.0050000 B: 8 T:1110.25s Train Loss: 0.000000174362580 Test Loss: 0.000076458806638 => worse loss (20 attempt)
+Epoch [398/400] Lr: 0.0050000 B: 8 T:1113.03s Train Loss: 0.000000220679395 Test Loss: 0.000074615509366 => worse loss (21 attempt)
+Epoch [399/400] Lr: 0.0050000 B: 8 T:1115.79s Train Loss: 0.000000184604976 Test Loss: 0.000079671219515 => worse loss (22 attempt)
+Epoch [400/400] Lr: 0.0050000 B: 8 T:1118.59s Train Loss: 0.000000269439284 Test Loss: 0.000173355864361 => worse loss (23 attempt)
+Duration: 1141.1821932792664 s
+=========================================================================
+Final epoch: 400
+Test loss: 0.000063254581648
+Final test loss: 0.000174022476696

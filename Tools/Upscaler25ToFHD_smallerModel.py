@@ -19,7 +19,6 @@ torch.jit.save(scripted_model, "model_scripted.pt")
 
 
 def tensor_to_pil(tensor):
-    # Upewnij się, że tensor jest na CPU i ma wartości 0-1
     tensor = tensor.squeeze(0).detach().cpu().clamp(0, 1)
     to_pil = transforms.ToPILImage()
     return to_pil(tensor)

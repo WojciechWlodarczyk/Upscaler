@@ -6,38 +6,32 @@ import os
 
 def run_single_image(model, image_path, target_image, output_dir="D:/mojeAI/MyUpscalerDataSet/cut25/outputFHD", show=True):
     from PIL import Image
-    # Utworzenie folderu output2, jeśli nie istnieje
     os.makedirs(output_dir, exist_ok=True)
-
-    # Wczytanie i przygotowanie obrazu
     img = Image.open(image_path).convert('RGB')
     transform = transforms.Compose([
-    #    transforms.Resize((540, 960)),  # dopasuj do wymagań wejściowych modelu
+    #    transforms.Resize((540, 960)),
         transforms.ToTensor()
     ])
     input_tensor = transform(img).unsqueeze(0)
 
     img_target = Image.open(target_image).convert('RGB')
     transform = transforms.Compose([
-        #    transforms.Resize((540, 960)),  # dopasuj do wymagań wejściowych modelu
+        #    transforms.Resize((540, 960)),
         transforms.ToTensor()
     ])
     target_tensor = transform(img_target).unsqueeze(0)
 
-    # Move the input tensor to the same device as the model
     device = next(model.parameters()).device
     input_tensor = input_tensor.to(device)
     target_tensor = target_tensor.to(device)
 
-    # Przepuszczenie przez model
     model.eval()
     with torch.no_grad():
         output = model(input_tensor)
 
-    # Konwersja do obrazów do wyświetlenia i zapisu
-    target_img_show = target_tensor.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
-    input_img_show = input_tensor.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
-    output_img_show = output.squeeze(0).permute(1,2,0).cpu().numpy() # Move back to CPU for plotting
+    target_img_show = target_tensor.squeeze(0).permute(1,2,0).cpu().numpy()
+    input_img_show = input_tensor.squeeze(0).permute(1,2,0).cpu().numpy()
+    output_img_show = output.squeeze(0).permute(1,2,0).cpu().numpy()
 
     if show:
         plt.figure(figsize=(12,6))
@@ -51,7 +45,6 @@ def run_single_image(model, image_path, target_image, output_dir="D:/mojeAI/MyUp
         plt.axis('off')
         plt.show()
 
-    # Zapisanie wyjściowego obrazu
     from PIL import Image
     import numpy as np
     output_img = (output_img_show * 255).astype(np.uint8)

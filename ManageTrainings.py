@@ -8,12 +8,12 @@ import os
 from torch.utils.data import Subset, Dataset, DataLoader
 from pathlib import Path
 
-from Model_17.Model_17 import CNNUpscaler, ResidualBlock
+from Model_20.Model_20 import CNNUpscaler, ResidualBlock
 # from Model_14.Model_14 import RRDBNet, SEBlock, DenseResidualBlock, RRDB, Discriminator, VGGFeatureExtractor
 import TrainModel
 import TestModel
 
-model_name = 'Model_17'
+model_name = 'Model_20'
 
 if __name__ == "__main__":
     print(__name__)

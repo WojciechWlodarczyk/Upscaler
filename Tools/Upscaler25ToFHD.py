@@ -5,12 +5,6 @@ import torchvision.transforms as transforms
 import time
 print(torch.__version__)
 print("Wersja CUDA (w PyTorch):", torch.version.cuda)
-# Załóżmy, że masz funkcję upscaler(img_fragment), która:
-# - przyjmuje obiekt PIL.Image 192x108
-# - zwraca obiekt PIL.Image 384x216
-# przykład (jeśli chcesz testować bez niej):
-# def upscaler(img):
-#     return img.resize((384, 216), Image.BICUBIC)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -43,7 +37,6 @@ def process_image(input_path, output_path):
 #    if (w, h) != (960, 540):
 #        raise ValueError(f"Oczekiwano obrazu 960x540, a otrzymano {w}x{h}")
 
-    # Parametry podziału
 #    tile_w, tile_h = 480, 270 #192, 108
 #    upscale_w, upscale_h = 960, 540 # 384, 216
 
@@ -53,7 +46,6 @@ def process_image(input_path, output_path):
     tile_w, tile_h = 48, 27
     upscale_w, upscale_h = 96, 54
 
-    # Przygotuj listę fragmentów
     tiles = []
     transform = transforms.ToTensor()
     for y in range(0, h, tile_h):
@@ -69,13 +61,11 @@ def process_image(input_path, output_path):
             times.append(t_end - temp_t)
             fps.append(1 / (t_end - temp_t))
             upscaled = tensor_to_pil(output_tensor)
-            # sprawdź czy rozmiar poprawny
             if upscaled.size != (upscale_w, upscale_h):
                 raise ValueError(f"Upscaler zwrócił zły rozmiar: {upscaled.size}")
             row.append(upscaled)
         tiles.append(row)
 
-    # Złóż nowy obraz 1920x1080
 #    out_w, out_h = upscale_w * 2, upscale_h * 2
 #    out_w, out_h = upscale_w * 5, upscale_h * 5
     out_w, out_h = upscale_w * 20, upscale_h * 20
@@ -85,7 +75,6 @@ def process_image(input_path, output_path):
         for i, tile in enumerate(row):
             output_img.paste(tile, (i * upscale_w, j * upscale_h))
 
-    # Zapisz wynik
     output_img.save(output_path)
 
     t_end = time.time()
@@ -97,7 +86,6 @@ def process_image(input_path, output_path):
     print(f"Zapisano wynik do {output_path}")
 
 
-# Przykład użycia:
 if __name__ == "__main__":
 
     process_image("screenshot_31.png", "fullyUpscaler_31_na400.png")

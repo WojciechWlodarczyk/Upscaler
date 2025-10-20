@@ -33,15 +33,6 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
 
     start_time = time.time()
     epochs_multiply = 1
-
-
-#    input_img_14258_FHD = Image.open(f"D://mojeAI//MyUpscalerDataSet//cut25//FHD//piece_83.png").convert('RGB')  ######################################################################################  USUN!!!!!!
-#    input_img_14258_half_FHD = Image.open(f"D://mojeAI//MyUpscalerDataSet//cut25//half_FHD//piece_83.png").convert('RGB')  ######################################################################################  USUN!!!!!!
-#    transform = transforms.ToTensor()  ######################################################################################  USUN!!!!!!
-#    inputs_piece_14258 = transform(input_img_14258_half_FHD)  ######################################################################################  USUN!!!!!!
-#    targets_piece_14258 = transform(input_img_14258_FHD)  ######################################################################################  USUN!!!!!!
-
-
     batches = 1
 
 
@@ -64,7 +55,7 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
                 with open("batch_size.txt", "r") as f:
                     return int(f.read().strip())
             except Exception as e:
-                Log(f"Nie udało się odczytać batch_size.txt: {e}")
+                Log(f"Cannot read batch_size.txt: {e}")
                 return batches
 
     if not rerun:
@@ -129,7 +120,7 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
                 for param_group in optimizer.param_groups:
                     param_group['lr'] = new_lr
             except Exception as e:
-                Log(f"Nie udało się odczytać LearningRate.txt: {e}")
+                Log(f"Cannot read LearningRate.txt: {e}")
 
         batches = read_batch_size()
 
@@ -142,13 +133,6 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
         dataloader = DataLoader(subset1, batch_size=batches, shuffle=True, drop_last=True)
 
         for inputs, targets in dataloader:
-#        for i in range(10):
-
-#            inputs = inputs_piece_14258.unsqueeze(0).repeat(batches, 1, 1, 1).to(device)  ######################################################################################  USUN!!!!!!
-#            targets = targets_piece_14258.unsqueeze(0).repeat(batches, 1, 1, 1).to(device)  ######################################################################################  USUN!!!!!!
-
-
-
             inputs, targets = inputs.to(device), targets.to(device)
 
             optimizer.zero_grad()
@@ -166,15 +150,6 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
         test_loss = 0.0
         with torch.no_grad():
             for inputs, targets in test_dataloader:
-#            for i in range(10):
-
-
-
-#                inputs = inputs_piece_14258.unsqueeze(0).repeat(batches, 1, 1, 1).to(device)  ######################################################################################  USUN!!!!!!
-#                targets = targets_piece_14258.unsqueeze(0).repeat(batches, 1, 1, 1).to(device)  ######################################################################################  USUN!!!!!!
-
-
-
                 inputs, targets = inputs.to(device), targets.to(device)
                 outputs = model(inputs)
                 loss = criterion(outputs, targets)
@@ -196,8 +171,6 @@ def train(model, model_name, part_of_data = 1, start_epoch = 0, best_test_loss =
         else:
             bad_loss_count += 1
             log_line += f" => worse loss ({bad_loss_count} attempt)"
-        #    model.load_state_dict(best_model_state)
-        #    optimizer.load_state_dict(best_optimizer_state)
 
         Log(log_line)
 

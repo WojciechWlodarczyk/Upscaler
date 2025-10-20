@@ -7,7 +7,8 @@ import time
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-model = torch.jit.load("E:/pythonProject/UpscalerTest/Model_17/training_2025-10-11_10-47-04/Model.pt")
+#model = torch.jit.load("E:/pythonProject/UpscalerTest/Model_17/training_2025-10-11_10-47-04/Model.pt")
+model = torch.jit.load("E:/pythonProject/UpscalerTest/Model_20/training_2025-10-15_21-11-40/Model.pt")
 
 #model = model.cpu()
 model.eval()
@@ -17,7 +18,7 @@ dummy_input = dummy_input.to(device)
 torch.onnx.export(
     model,
     dummy_input,
-    "E:/pythonProject/UpscalerTest/Model_17/wojtekUpscaler.onnx",
+    "E:/pythonProject/UpscalerTest/Model_20/wojtekUpscaler_m20_5.onnx",
     export_params=True,
     opset_version=11,
     do_constant_folding=True,
@@ -54,14 +55,12 @@ def process_image(input_path, output_path, model, device, batch_size=8):
     tiles = []
     coords = []
 
-    # --- 1️⃣ Dziel obraz na kafelki ---
     for y in range(0, h, tile_h):
         for x in range(0, w, tile_w):
             crop = img.crop((x, y, x + tile_w, y + tile_h))
             tiles.append(transform(crop))
             coords.append((x, y))
 
-    # --- 2️⃣ Przetwarzanie w batchach ---
     model.eval()
     results = []
     times = []
@@ -79,7 +78,6 @@ def process_image(input_path, output_path, model, device, batch_size=8):
             times.append(t1 - t0)
             results.extend(tensor_to_pil(output_batch))
 
-    # --- 3️⃣ Sklejanie wyniku ---
     out_w = (w // tile_w) * upscale_w
     out_h = (h // tile_h) * upscale_h
     output_img = Image.new("RGB", (out_w, out_h))
@@ -89,16 +87,15 @@ def process_image(input_path, output_path, model, device, batch_size=8):
         j = y // tile_h
         output_img.paste(tile, (i * upscale_w, j * upscale_h))
 
-    # --- 4️⃣ Zapis i statystyki ---
     output_img.save(output_path)
     total_time = time.time() - start_t1
     fps = len(tiles) / sum(times)
 
-    print(f"✅ Zapisano wynik do: {output_path}")
-    print(f"⏱️ Czas całkowity: {total_time:.2f}s")
-    print(f"🧩 Kafelki: {len(tiles)}")
-    print(f"⚡ Średni czas batchu: {np.mean(times):.3f}s")
-    print(f"🚀 FPS (dla batchy): {fps:.2f}")
+    print(f"Zapisano wynik do: {output_path}")
+    print(f"Czas całkowity: {total_time:.2f}s")
+    print(f"Kafelki: {len(tiles)}")
+    print(f"Średni czas batchu: {np.mean(times):.3f}s")
+    print(f"FPS (dla batchy): {fps:.2f}")
 
 
 if __name__ == "__main__":
